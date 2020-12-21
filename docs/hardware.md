@@ -43,7 +43,7 @@ slug: /hardware
 <iframe src="/interactive_bom/watchy_interactive_bom.html" width="100%" height="600" title="Watchy Interactive BOM" ></iframe>
 
 
-[Open Interactive BOM in new tab](/interactive_bom/watchy_interactive_bom.html)
+[Open Interactive BOM in new tab](https://watchy.sqfmi.com/interactive_bom/watchy_interactive_bom.html)
 
 [Download BOM CSV](https://github.com/sqfmi/watchy-hardware/blob/main/WatchyBOM.csv)
 > Created Using **[InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)**
