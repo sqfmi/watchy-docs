@@ -26,7 +26,15 @@
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
+    padding-top: 70%;
+    background-size: 400px;
+    background-position: 15% 5%;
   }
+
+  .heroBanner h1, .heroBanner p, .heroBanner a{
+    margin-left:0%;
+    color: #d7e2d3 !important;  
+  }  
 }
 
 .buttons {
