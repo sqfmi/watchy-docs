@@ -95,6 +95,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} <a class="footer__link-item" href="https://www.sqfmi.com"> Squarofumi</a>. Built with Docusaurus.`,
     },
+    gtag: {
+      trackingID: 'G-MN55F60K14',
+    },      
   },
   presets: [
     [
