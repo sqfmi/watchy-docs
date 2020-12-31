@@ -5,9 +5,21 @@ sidebar_label: Getting Started
 slug: /getting-started
 ---
 
-Watchy comes pre-loaded with firmware that demonstrates all the basic features. You can test out different watch faces over here.
+## Assembly
+
+![Watchy Assembly](../static/img/watchy_assembly_steps.png)
+
+1. Apply tape to both the back of the E-Paper display and the battery
+2. Pull lightly to unlock the FFC connector, insert the display cable through the strap hole. Make sure the cable is inserted all the way, then push the lock back in to secure the cable. 
+3. Fold back and align the display to the top of the PCB, peel off tape and firmly secure the display
+4. Insert battery plug, ensure correct polarity (red is closer to the USB connector)
+5. Peel off tape and firmly secure battery to the PCB
+6. Insert watch strap through PCB strap holes, then tighten strap from both ends
+7. Wrap strap around arm and adjust for comfort
 
 ## Arduino Setup
+
+Watchy comes pre-loaded with firmware that demonstrates all the basic features. You can test out different watch faces over here.
 
 1. Download and install the latest <ins>[Arduino IDE](https://www.arduino.cc/en/software)</ins>
 2. Start Arduino and open Preferences window.

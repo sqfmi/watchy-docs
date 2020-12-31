@@ -12,6 +12,10 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: '3DModels'
+    },    
+    {
+      type: 'doc',
       id: 'faqs'
     }          
   ],
