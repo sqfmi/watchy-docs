@@ -17,6 +17,10 @@ module.exports = {
     {
       type: 'doc',
       id: 'faqs'
-    }          
+    },    
+    {
+      type: 'doc',
+      id: 'license'
+    }            
   ],
 };
