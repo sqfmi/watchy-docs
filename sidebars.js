@@ -3,7 +3,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Software',
-      items: ['getting-started','examples','create-watchface','battery-life'],
+      items: ['getting-started', 'libs', 'examples','create-watchface','battery-life'],
       collapsed: false
     },
     {
