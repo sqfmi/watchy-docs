@@ -1,9 +1,15 @@
 ---
 id: license
-title: MIT License
-sidebar_label: MIT License
+title: Open Source Hardware & Software
+sidebar_label: Open Source License
 slug: /license
 ---
+
+Watchy's software, hardware, and documentation are fully open source under MIT license and OSHWA certified.
+
+[![OSHWA US000936](../static/img/OSHWA-Certification.svg)](https://certification.oshwa.org/us000936.html)
+
+![licenses](../static/img/opensource-label.svg)
 
 MIT License
 
