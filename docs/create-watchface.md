@@ -15,7 +15,7 @@ To create a basic watch face, you need to simply override the ```drawWatchFace()
 #include <Watchy.h> //include the Watchy library
 #include <Fonts/FreeMonoOblique24pt7b.h> //include any fonts you want to use
 
-class MyFirstWatchFace : public Watchy{ //inherit and extend Watcht class
+class MyFirstWatchFace : public Watchy{ //inherit and extend Watchy class
     public:
         void drawWatchFace(){ //override this method to customize how the watch face looks
           display.setFont(&FreeMonoOblique24pt7b);
@@ -43,10 +43,29 @@ void loop() {
 }
 ```
 
-### Converting Images
+### Displaying Images/Icons
 
-http://javl.github.io/image2cpp/
+Since the E-Paper display is black and white only, you will need to convert any images/icons you wish to display into black and white first.
+The image then needs to be converted into a byte array, and stored in Watchy's flash.
+
+#### Convert image  to byte array (image2cpp)
+
+You can convert your images to byte arrays using the web tool <ins>[**image2cpp**](http://javl.github.io/image2cpp/)</ins>
+
+1. Upload your image and play around with the settings. If your image is already in black and white then you can just leave the brightness threshold  to default, otherwise if it's in color, you can play with that setting to get the image to look right under preview.
+
+2. In the **Code Output format** option, select *Arduino code*, give it a name under *identifier* and click **Generate code**. Copy the contents in the textarea and paste it in a ```*.h``` file in the same directory as your Arduino sketch.
+
+3. In your watch face file e.g. ```myFirstWatchFace.ino```, include that header file e.g. ```#include "myImage.h"```
+
+4. Use ```display.drawBitmap(x_origin, y_origin, imageByteArrayName, width, height, color)``` in the ```drawWatchFace()``` method to display your image. The order of these draw/print statements matter, so if you call ```display.drawBitmap()``` first, followed by ```display.println("Hello World!")```, the text will be on top of the image.
 
 ### Using Fonts
 
-https://rop.nl/truetype2gfx/
+You can use custom fonts by converting them first with the tool <ins>[**truetype2gfx**](https://rop.nl/truetype2gfx/)</ins>
+
+1. Upload your font of choice and set the font size. Click **Get GFX font file** to download the font file e.g. ```Seven_Segment10pt7b.h```.
+
+2. In your watch face file e.g. ```myFirstWatchFace.ino```, include that header file e.g. ```#include "Seven_Segment10pt7b.h"```
+
+3. Use ```display.setFont(&Seven_Segment10pt7b)``` to set the current font face (don't forget the ampersand before the font name). You will have to call the ```display.setFont()``` method each time you wish to use another font. Use ```display.setCursor(x, y)``` to set where to start printing text, the coordinates refer to the *lower left corner* of the text to be printed.
