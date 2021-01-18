@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import watchface from './watchface.module.css';
 
 class WatchFace extends Component {
   render() {
     return(
-      <p>Coming Soon!</p>
+      <div className={'col col--3 ' + watchface.frame}>
+        <img src={this.props.screenshot} />
+        <a className={'button button--outline button--info'} href={this.props.github} target="_blank">GitHub</a>
+        <button className={'button button--info'}>Try it!</button>
+      </div>
     )
   }
 }

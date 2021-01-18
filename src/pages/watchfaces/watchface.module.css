@@ -1,0 +1,29 @@
+.frame{
+    background-image: url("/img/watchy_frame.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 270px 460px;    
+    height:460px;
+    margin-bottom:100px;
+    text-align: center;
+}
+
+.frame img{
+    position: relative;
+    top:130px;
+}
+
+.frame button{
+    display:block;
+    margin:5px auto;
+    position: relative;
+    top:260px;
+}
+
+.frame a{
+    display:block;
+    margin:5px auto;
+    position: relative;
+    top:260px;
+    width:50%;
+}
