@@ -17,6 +17,7 @@ function Hello() {
           <div className="row">
             <WatchFace screenshot={watchfaces[4].screenshot} github={watchfaces[4].source} />
             <WatchFace screenshot={watchfaces[5].screenshot} github={watchfaces[5].source} />
+            <WatchFace screenshot={watchfaces[6].screenshot} github={watchfaces[6].source} />
           </div>
         </div>
         <div class="col col--3">
@@ -75,6 +76,14 @@ var watchfaces = [
         "author" : "SQFMI",
         "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/6_Tetris.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/Tetris",
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "7",
+        "name" : "MacPaint",
+        "author" : "SQFMI",
+        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/7_MacPaint.png",
+        "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/MacPaint",
         "version" : "1.0.0"
     }                                
 ];
