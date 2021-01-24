@@ -18,6 +18,7 @@ function Hello() {
             <WatchFace screenshot={watchfaces[4].screenshot} github={watchfaces[4].source} />
             <WatchFace screenshot={watchfaces[5].screenshot} github={watchfaces[5].source} />
             <WatchFace screenshot={watchfaces[6].screenshot} github={watchfaces[6].source} />
+            <WatchFace screenshot={watchfaces[7].screenshot} github={watchfaces[7].source} />
           </div>
         </div>
         <div class="col col--3">
@@ -46,6 +47,14 @@ var watchfaces = [
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/7_SEG",
         "version" : "1.0.0"
     },
+    {
+      "id" : "2A",
+      "name" : "7_SEG_LIGHT",
+      "author" : "SQFMI",
+      "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/2_7_SEG_Light.png",
+      "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/7_SEG",
+      "version" : "1.0.0"
+    },     
     {
         "id" : "3",
         "name" : "DOS",
