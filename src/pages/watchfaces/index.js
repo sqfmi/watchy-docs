@@ -20,6 +20,9 @@ function Hello() {
             <WatchFace screenshot={watchfaces[6].screenshot} github={watchfaces[6].source} />
             <WatchFace screenshot={watchfaces[7].screenshot} github={watchfaces[7].source} />
           </div>
+          <div className="row">
+            <WatchFace screenshot={watchfaces[8].screenshot} github={watchfaces[8].source} />
+          </div>          
         </div>
         <div class="col col--3">
           <p>Can't find the right watch face?</p>
@@ -94,7 +97,15 @@ var watchfaces = [
         "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/7_MacPaint.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/MacPaint",
         "version" : "1.0.0"
-    }                                
+    },
+    {
+        "id" : "8",
+        "name" : "Bahn",
+        "author" : "BraininaBowl",
+        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/8_Bahn.png",
+        "source" : "https://github.com/BraininaBowl/Bahn-for-Watchy",
+        "version" : "1.0.0"
+    }                                 
 ];
 
 export default Hello;
