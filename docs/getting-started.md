@@ -9,7 +9,7 @@ slug: /getting-started
 
 ![Watchy Assembly](../static/img/watchy_assembly_steps.png)
 
-1. Apply tape to both the back of the E-Paper display and the battery
+1. Apply tape to the **back** of the E-Paper display and battery. The **front of the display is white** and the **back of the display is metallic/silver**
 2. Pull lightly to unlock the FFC connector, insert the display cable through the strap hole. Make sure the cable is inserted all the way, then push the lock back in to secure the cable. 
 3. Fold back and align the display to the top of the PCB, peel off tape and firmly secure the display
 4. Insert battery plug, ensure correct polarity (red is closer to the USB connector)
