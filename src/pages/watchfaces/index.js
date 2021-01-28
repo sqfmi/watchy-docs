@@ -5,9 +5,9 @@ import WatchFace from './WatchFace';
 function Hello() {
   return (
     <Layout title="Watch Faces">
-      <div class="row">
-        <div class="col col--3"></div>
-        <div class="col col--6">
+      <div className="row">
+        <div className="col col--3"></div>
+        <div className="col col--6">
           <div className="row">
               <WatchFace screenshot={watchfaces[0].screenshot} github={watchfaces[0].source} />
               <WatchFace screenshot={watchfaces[1].screenshot} github={watchfaces[1].source} />
@@ -24,9 +24,9 @@ function Hello() {
             <WatchFace screenshot={watchfaces[8].screenshot} github={watchfaces[8].source} />
           </div>          
         </div>
-        <div class="col col--3">
+        <div className="col col--3">
           <p>Can't find the right watch face?</p>
-          <a class="button button--lg button--secondary" href="/docs/create-watchface">Create Your Own!</a>
+          <a className="button button--lg button--secondary" href="/docs/create-watchface">Create Your Own!</a>
         </div>
       </div>
     </Layout>

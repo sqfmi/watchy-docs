@@ -1,0 +1,8 @@
+.case{
+    text-align: center;
+}
+
+.case iframe{
+    display:block;
+    margin:10px auto;
+}
