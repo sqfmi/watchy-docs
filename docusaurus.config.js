@@ -36,7 +36,7 @@ module.exports = {
         },                 
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://www.tindie.com/products/sqfmi/watchy/',
+          href: 'https://www.crowdsupply.com/sqfmi/watchy',
           label: 'Buy Watchy!',
           position: 'right',
         },
@@ -63,6 +63,15 @@ module.exports = {
           ],
         },
         {
+          title: 'Community',
+          items: [
+            {
+              label: 'Discord',
+              to: 'https://discord.com/invite/XYC5j7NJat',
+            },                       
+          ],
+        },        
+        {
           title: 'Social',
           items: [
             {
@@ -83,13 +92,9 @@ module.exports = {
           title: 'Shop',
           items: [
             {
-              label: 'Tindie',
-              href: 'https://www.tindie.com/stores/squarofumi/',
-            },
-            {
-              label: 'BOOTH',
-              href: 'https://sqfmi.booth.pm/',
-            },
+              label: 'Crowd Supply',
+              href: 'https://www.crowdsupply.com/sqfmi/watchy',
+            }
           ],
         },        
       ],
