@@ -14,7 +14,7 @@ The front is the side that's whitish gray, with a white bezel at the bottom. The
 - You can also slide a thin hobby knife between the screen and the PCB to remove the adhesive. Work slowly!
 - Check out this video on Badgy for reference https://www.youtube.com/watch?v=0BzPnMsKN20
 
-### Why does my display appear "static-y"
+### Why does my display appear "static-y" or ghosting?
 
 - **Make sure you are using the latest version of the GxEDP2 library (i.e. > 1.2.16)** , there is a fix for the GDEH0154D67 display driver
 - Ensure the FPC cable is fully inserted, and the lock is in place
