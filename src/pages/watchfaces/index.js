@@ -22,6 +22,7 @@ function Hello() {
           </div>
           <div className="row">
             <WatchFace screenshot={watchfaces[8].screenshot} github={watchfaces[8].source} />
+            <WatchFace screenshot={watchfaces[9].screenshot} github={watchfaces[9].source} />
           </div>          
         </div>
         <div className="col col--3">
@@ -38,7 +39,7 @@ var watchfaces = [
         "id" : "1",
         "name" : "Basic",
         "author" : "SQFMI",
-        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/1_Basic.png",
+        "screenshot" : "/img/watchfaces/1_Basic.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/Basic",
         "version" : "1.0.0"
     },
@@ -46,7 +47,7 @@ var watchfaces = [
         "id" : "2",
         "name" : "7_SEG",
         "author" : "SQFMI",
-        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/2_7_SEG.png",
+        "screenshot" : "/img/watchfaces/2_7_SEG.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/7_SEG",
         "version" : "1.0.0"
     },
@@ -54,7 +55,7 @@ var watchfaces = [
       "id" : "2A",
       "name" : "7_SEG_LIGHT",
       "author" : "SQFMI",
-      "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/2_7_SEG_Light.png",
+      "screenshot" : "/img/watchfaces/2_7_SEG_Light.png",
       "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/7_SEG",
       "version" : "1.0.0"
     },     
@@ -62,7 +63,7 @@ var watchfaces = [
         "id" : "3",
         "name" : "DOS",
         "author" : "SQFMI",
-        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/3_DOS.png",
+        "screenshot" : "/img/watchfaces/3_DOS.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/DOS",
         "version" : "1.0.0"
     },
@@ -70,7 +71,7 @@ var watchfaces = [
         "id" : "4",
         "name" : "Pokemon",
         "author" : "SQFMI",
-        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/4_Pokemon.png",
+        "screenshot" : "/img/watchfaces/4_Pokemon.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/Pokemon",
         "version" : "1.0.0"
     },
@@ -78,7 +79,7 @@ var watchfaces = [
         "id" : "5",
         "name" : "StarryHorizon",
         "author" : "dandelany",
-        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/5_StarryHorizon.png",
+        "screenshot" : "/img/watchfaces/5_StarryHorizon.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/StarryHorizon",
         "version" : "1.0.0"
     },
@@ -86,7 +87,7 @@ var watchfaces = [
         "id" : "6",
         "name" : "Tetris",
         "author" : "SQFMI",
-        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/6_Tetris.png",
+        "screenshot" : "/img/watchfaces/6_Tetris.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/Tetris",
         "version" : "1.0.0"
     },
@@ -94,7 +95,7 @@ var watchfaces = [
         "id" : "7",
         "name" : "MacPaint",
         "author" : "SQFMI",
-        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/7_MacPaint.png",
+        "screenshot" : "/img/watchfaces/7_MacPaint.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/MacPaint",
         "version" : "1.0.0"
     },
@@ -102,10 +103,19 @@ var watchfaces = [
         "id" : "8",
         "name" : "Bahn",
         "author" : "BraininaBowl",
-        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/8_Bahn.png",
+        "screenshot" : "/img/watchfaces/8_Bahn.png",
         "source" : "https://github.com/BraininaBowl/Bahn-for-Watchy",
         "version" : "1.0.0"
-    }                                 
+    },
+    {
+        "id" : "9",
+        "name" : "Redub",
+        "author" : "BraininaBowl",
+        "screenshot" : "/img/watchfaces/9_Redub.png",
+        "source" : "https://github.com/BraininaBowl/Re-Dub-for-Watchy",
+        "version" : "1.0.0"
+    }   
+                                     
 ];
 
 export default Hello;
