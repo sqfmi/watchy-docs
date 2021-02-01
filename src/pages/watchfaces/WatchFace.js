@@ -6,7 +6,7 @@ class WatchFace extends Component {
     return(
       <div className={'col col--3 ' + watchface.frame}>
         <img src={this.props.screenshot} />
-        <a className={'button button--outline button--info'} href={this.props.github} target="_blank">GitHub</a>
+        <a className={'button button--outline button--info'} href={this.props.github} target="_blank">{this.props.name}</a>
         <button className={'button button--info'}>Try it!</button>
       </div>
     )

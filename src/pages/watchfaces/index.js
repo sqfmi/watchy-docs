@@ -9,20 +9,21 @@ function Hello() {
         <div className="col col--3"></div>
         <div className="col col--6">
           <div className="row">
-              <WatchFace screenshot={watchfaces[0].screenshot} github={watchfaces[0].source} />
-              <WatchFace screenshot={watchfaces[1].screenshot} github={watchfaces[1].source} />
-              <WatchFace screenshot={watchfaces[2].screenshot} github={watchfaces[2].source} />
-              <WatchFace screenshot={watchfaces[3].screenshot} github={watchfaces[3].source} />
+              <WatchFace screenshot={watchfaces[0].screenshot} github={watchfaces[0].source} name={watchfaces[0].name} />
+              <WatchFace screenshot={watchfaces[1].screenshot} github={watchfaces[1].source} name={watchfaces[1].name} />
+              <WatchFace screenshot={watchfaces[2].screenshot} github={watchfaces[2].source} name={watchfaces[2].name} />
+              <WatchFace screenshot={watchfaces[3].screenshot} github={watchfaces[3].source} name={watchfaces[3].name} />
           </div>
           <div className="row">
-            <WatchFace screenshot={watchfaces[4].screenshot} github={watchfaces[4].source} />
-            <WatchFace screenshot={watchfaces[5].screenshot} github={watchfaces[5].source} />
-            <WatchFace screenshot={watchfaces[6].screenshot} github={watchfaces[6].source} />
-            <WatchFace screenshot={watchfaces[7].screenshot} github={watchfaces[7].source} />
+            <WatchFace screenshot={watchfaces[4].screenshot} github={watchfaces[4].source} name={watchfaces[4].name} />
+            <WatchFace screenshot={watchfaces[5].screenshot} github={watchfaces[5].source} name={watchfaces[5].name} />
+            <WatchFace screenshot={watchfaces[6].screenshot} github={watchfaces[6].source} name={watchfaces[6].name} />
+            <WatchFace screenshot={watchfaces[7].screenshot} github={watchfaces[7].source} name={watchfaces[7].name} />
           </div>
           <div className="row">
-            <WatchFace screenshot={watchfaces[8].screenshot} github={watchfaces[8].source} />
-            <WatchFace screenshot={watchfaces[9].screenshot} github={watchfaces[9].source} />
+            <WatchFace screenshot={watchfaces[8].screenshot} github={watchfaces[8].source} name={watchfaces[8].name} />
+            <WatchFace screenshot={watchfaces[9].screenshot} github={watchfaces[9].source} name={watchfaces[9].name} />
+            <WatchFace screenshot={watchfaces[10].screenshot} github={watchfaces[10].source} name={watchfaces[10].name} />
           </div>          
         </div>
         <div className="col col--3">
@@ -109,12 +110,20 @@ var watchfaces = [
     },
     {
         "id" : "9",
-        "name" : "Redub",
+        "name" : "Re-Dub",
         "author" : "BraininaBowl",
         "screenshot" : "/img/watchfaces/9_Redub.png",
         "source" : "https://github.com/BraininaBowl/Re-Dub-for-Watchy",
         "version" : "1.0.0"
-    }   
+    },
+    {
+        "id" : "10",
+        "name" : "Calculateur",
+        "author" : "Jochen",
+        "screenshot" : "/img/watchfaces/10_Calculateur.png",
+        "source" : "https://git.sr.ht/~jochen/Calculateur",
+        "version" : "1.0.0"
+    }     
                                      
 ];
 
