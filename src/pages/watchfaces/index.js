@@ -5,26 +5,30 @@ import WatchFace from './WatchFace';
 function Hello() {
   return (
     <Layout title="Watch Faces">
-      <div className="row">
+      <div className="row row--no-gutters">
         <div className="col col--3"></div>
         <div className="col col--6">
-          <div className="row">
+          <div className="row row--no-gutters">
               <WatchFace screenshot={watchfaces[0].screenshot} github={watchfaces[0].source} name={watchfaces[0].name} />
               <WatchFace screenshot={watchfaces[1].screenshot} github={watchfaces[1].source} name={watchfaces[1].name} />
               <WatchFace screenshot={watchfaces[2].screenshot} github={watchfaces[2].source} name={watchfaces[2].name} />
               <WatchFace screenshot={watchfaces[3].screenshot} github={watchfaces[3].source} name={watchfaces[3].name} />
           </div>
-          <div className="row">
+          <div className="row row--no-gutters">
             <WatchFace screenshot={watchfaces[4].screenshot} github={watchfaces[4].source} name={watchfaces[4].name} />
             <WatchFace screenshot={watchfaces[5].screenshot} github={watchfaces[5].source} name={watchfaces[5].name} />
             <WatchFace screenshot={watchfaces[6].screenshot} github={watchfaces[6].source} name={watchfaces[6].name} />
             <WatchFace screenshot={watchfaces[7].screenshot} github={watchfaces[7].source} name={watchfaces[7].name} />
           </div>
-          <div className="row">
+          <div className="row row--no-gutters">
             <WatchFace screenshot={watchfaces[8].screenshot} github={watchfaces[8].source} name={watchfaces[8].name} />
             <WatchFace screenshot={watchfaces[9].screenshot} github={watchfaces[9].source} name={watchfaces[9].name} />
             <WatchFace screenshot={watchfaces[10].screenshot} github={watchfaces[10].source} name={watchfaces[10].name} />
-          </div>          
+            <WatchFace screenshot={watchfaces[11].screenshot} github={watchfaces[11].source} name={watchfaces[11].name} />
+          </div>
+          <div className="row row--no-gutters">
+            
+          </div>                       
         </div>
         <div className="col col--3">
           <p>Can't find the right watch face?</p>
@@ -123,7 +127,15 @@ var watchfaces = [
         "screenshot" : "/img/watchfaces/10_Calculateur.png",
         "source" : "https://git.sr.ht/~jochen/Calculateur",
         "version" : "1.0.0"
-    }     
+    },
+    {
+        "id" : "11",
+        "name" : "Jarvis",
+        "author" : "peerdavid",
+        "screenshot" : "/img/watchfaces/11_Jarvis.gif",
+        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "version" : "1.0.0"
+    }      
                                      
 ];
 

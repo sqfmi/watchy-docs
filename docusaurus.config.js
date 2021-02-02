@@ -8,6 +8,9 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'sqfmi', // Usually your GitHub org/user name.
   projectName: 'watchy-docs', // Usually your repo name.
+  scripts: [
+    'http://www.instagram.com/embed.js'
+  ],
   themeConfig: {
     navbar: {
       title: 'Watchy',
@@ -33,7 +36,13 @@ module.exports = {
           activeBasePath: 'watchcases',
           label: 'Watch Cases',
           position: 'left',
-        },                 
+        },
+        {
+          to: 'gallery/',
+          activeBasePath: 'gallery',
+          label: 'Gallery',
+          position: 'left',
+        },                         
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://www.crowdsupply.com/sqfmi/watchy',
