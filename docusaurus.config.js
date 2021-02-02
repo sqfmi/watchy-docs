@@ -9,7 +9,7 @@ module.exports = {
   organizationName: 'sqfmi', // Usually your GitHub org/user name.
   projectName: 'watchy-docs', // Usually your repo name.
   scripts: [
-    'http://www.instagram.com/embed.js'
+    'https://www.instagram.com/embed.js'
   ],
   themeConfig: {
     navbar: {
