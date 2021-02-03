@@ -3,9 +3,17 @@ id: faqs
 title: Frequently Asked Questions
 ---
 
+### Is the screen E-Ink/E-Paper/LCD/CRT?
+
+E-Ink/E-Paper is the same technology used in devices like the Kindle. E-Ink is a **brand** of electronic paper (E-Paper) displays. Devices like the Pebble use a low power LCD, which **is not** E-Ink or E-Paper.
+
+**Watchy is E-Paper**
+
+![How E-Paper Works](../static/img/epaper.gif)
+
 ### Which side is the front/back of the E-Ink display?
 
-The front is the side that's whitish gray, with a white bezel at the bottom. The back is the metallic and mirror-like.
+The front is the side that's whitish gray, with a white bezel at the bottom. The back is metallic and mirror-like.
 
 ### I stuck on the screen the wrong way, help!
 
