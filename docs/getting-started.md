@@ -17,6 +17,8 @@ slug: /getting-started
 6. Insert watch strap through PCB strap holes, then tighten strap from both ends
 7. Wrap strap around arm and adjust for comfort
 
+Assembly video: https://www.youtube.com/watch?v=PCPxTS1aF3w
+
 ## Arduino Setup
 
 Watchy comes pre-loaded with firmware that demonstrates all the basic features. You can also try different watch faces and examples in Arduino.

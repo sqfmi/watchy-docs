@@ -12,9 +12,7 @@ function Hello() {
   return (
     <Layout title="Gallery">
       <div className={'row row--no-gutters '}>
-        <div className="col col--3"></div>
         <PostsList />
-        <div className="col col--3"></div>
       </div>
     </Layout>
   );
