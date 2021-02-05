@@ -5,6 +5,7 @@
         "author" : "SQFMI",
         "screenshot" : "/img/watchfaces/1_Basic.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/Basic",
+        "ota_bin" : true,
         "version" : "1.0.0"
     },
     {
@@ -13,6 +14,7 @@
         "author" : "SQFMI",
         "screenshot" : "/img/watchfaces/2_7_SEG.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/7_SEG",
+        "ota_bin" : true,
         "version" : "1.0.0"
     },
     {
@@ -21,6 +23,7 @@
       "author" : "SQFMI",
       "screenshot" : "/img/watchfaces/2_7_SEG_Light.png",
       "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/7_SEG",
+      "ota_bin" : true,
       "version" : "1.0.0"
     },     
     {
@@ -29,6 +32,7 @@
         "author" : "SQFMI",
         "screenshot" : "/img/watchfaces/3_DOS.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/DOS",
+        "ota_bin" : true,
         "version" : "1.0.0"
     },
     {
@@ -37,6 +41,7 @@
         "author" : "SQFMI",
         "screenshot" : "/img/watchfaces/4_Pokemon.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/Pokemon",
+        "ota_bin" : true,
         "version" : "1.0.0"
     },
     {
@@ -45,6 +50,7 @@
         "author" : "dandelany",
         "screenshot" : "/img/watchfaces/5_StarryHorizon.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/StarryHorizon",
+        "ota_bin" : true,
         "version" : "1.0.0"
     },
     {
@@ -53,6 +59,7 @@
         "author" : "SQFMI",
         "screenshot" : "/img/watchfaces/6_Tetris.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/Tetris",
+        "ota_bin" : true,
         "version" : "1.0.0"
     },
     {
@@ -61,6 +68,7 @@
         "author" : "SQFMI",
         "screenshot" : "/img/watchfaces/7_MacPaint.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/MacPaint",
+        "ota_bin" : true,
         "version" : "1.0.0"
     },
     {
@@ -69,6 +77,7 @@
         "author" : "BraininaBowl",
         "screenshot" : "/img/watchfaces/8_Bahn.png",
         "source" : "https://github.com/BraininaBowl/Bahn-for-Watchy",
+        "ota_bin" : false,
         "version" : "1.0.0"
     },
     {
@@ -77,6 +86,7 @@
         "author" : "BraininaBowl",
         "screenshot" : "/img/watchfaces/9_Redub.png",
         "source" : "https://github.com/BraininaBowl/Re-Dub-for-Watchy",
+        "ota_bin" : false,
         "version" : "1.0.0"
     },
     {
@@ -85,6 +95,7 @@
         "author" : "Jochen",
         "screenshot" : "/img/watchfaces/10_Calculateur.png",
         "source" : "https://git.sr.ht/~jochen/Calculateur",
+        "ota_bin" : false,
         "version" : "1.0.0"
     },
     {
@@ -93,7 +104,16 @@
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/11_Jarvis.gif",
         "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "ota_bin" : false,
         "version" : "1.0.0"
-    }      
-                                     
+    },
+    {
+        "id" : "12",
+        "name" : "Bad For Eye",
+        "author" : "mammothroar",
+        "screenshot" : "/img/watchfaces/12_BadForEye.png",
+        "source" : "https://github.com/mammothroar/watchy/tree/main/watchface/BadForEye",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }                              
 ]

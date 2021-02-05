@@ -7,14 +7,14 @@ class WatchFace extends Component {
       <div className={'col col--4 ' + watchface.frame}>
         <img src={this.props.screenshot} />
         <a className={'button button--outline button--info'} href={this.props.github} target="_blank">{this.props.name}</a>
-        <TryButton name={this.props.name} author={this.props.author} />
+        <TryButton name={this.props.name} ota_bin={this.props.ota_bin} />
       </div>
     )
   }
 }
 
 function TryButton(props){
-  if(props.author == "SQFMI" || props.author == "dandelany"){
+  if(props.ota_bin){
     return <button id={props.name} className={'button button--info'} onClick={BTConnect}>Try it! (beta)</button>;
   }else{
     return null;
@@ -87,7 +87,9 @@ function CheckVersion(watchfaceName){
 }
 
 function Update(watchfaceName){
-  let url = 'https://raw.githubusercontent.com/sqfmi/Watchy/master/examples/WatchFaces/'+watchfaceName+'/'+watchfaceName+'.bin';
+  let dir;
+  watchfaceName == '7_SEG_LIGHT' ? dir == '7_SEG' : dir = watchfaceName;
+  let url = 'https://raw.githubusercontent.com/sqfmi/Watchy/master/examples/WatchFaces/'+dir+'/'+watchfaceName+'.bin';
   fetch(url)
   .then(function (response) {
     return response.arrayBuffer();
