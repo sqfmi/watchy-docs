@@ -115,5 +115,104 @@
         "source" : "https://github.com/mammothroar/watchy/tree/main/watchface/BadForEye",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }                              
+    },
+    {
+        "id" : "13",
+        "name" : "Maze",
+        "author" : "BraininaBowl",
+        "screenshot" : "/img/watchfaces/13_Maze.png",
+        "source" : "https://github.com/BraininaBowl/Maze-for-Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "14",
+        "name" : "BTTF",
+        "author" : "peerdavid",
+        "screenshot" : "/img/watchfaces/14_BTTF.png",
+        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "15",
+        "name" : "Binary",
+        "author" : "BenjaminGabel",
+        "screenshot" : "/img/watchfaces/15_Binary.png",
+        "source" : "https://github.com/BenjaminGabel/BinaryWatchFace",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "16",
+        "name" : "Stationary Text",
+        "author" : "BraininaBowl",
+        "screenshot" : "/img/watchfaces/16_Stationary_Text.png",
+        "source" : "https://github.com/BraininaBowl/Stationary-Text-for-Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "17",
+        "name" : "Steps",
+        "author" : "peerdavid",
+        "screenshot" : "/img/watchfaces/17_Steps.png",
+        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "18",
+        "name" : "TypoStyle",
+        "author" : "spinalcode",
+        "screenshot" : "/img/watchfaces/18_TypoStyle.png",
+        "source" : "https://github.com/spinalcode/TypoStyle",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "19",
+        "name" : "Analog",
+        "author" : "BenjaminGabel",
+        "screenshot" : "/img/watchfaces/19_Analog.png",
+        "source" : "https://github.com/BenjaminGabel/AnalogWatchFace",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "20",
+        "name" : "Analog",
+        "author" : "peerdavid",
+        "screenshot" : "/img/watchfaces/20_Analog.png",
+        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "21",
+        "name" : "Hobbit Time",
+        "author" : "BraininaBowl",
+        "screenshot" : "/img/watchfaces/21_Hobbit_Time.png",
+        "source" : "https://github.com/BraininaBowl/Hobbit-Time-for-Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "22",
+        "name" : "BCD",
+        "author" : "peerdavid",
+        "screenshot" : "/img/watchfaces/22_BCD.png",
+        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "23",
+        "name" : "Line",
+        "author" : "mistablinky",
+        "screenshot" : "/img/watchfaces/23_Line.gif",
+        "source" : "https://github.com/mistablinky/Line-for-Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }                                                    
 ]

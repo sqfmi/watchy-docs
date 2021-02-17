@@ -88,7 +88,7 @@ function CheckVersion(watchfaceName){
 
 function Update(watchfaceName){
   let dir;
-  watchfaceName == '7_SEG_LIGHT' ? dir == '7_SEG' : dir = watchfaceName;
+  watchfaceName == '7_SEG_LIGHT' ? dir = '7_SEG' : dir = watchfaceName;
   let url = 'https://raw.githubusercontent.com/sqfmi/Watchy/master/examples/WatchFaces/'+dir+'/'+watchfaceName+'.bin';
   fetch(url)
   .then(function (response) {
