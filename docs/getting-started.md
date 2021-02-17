@@ -41,7 +41,8 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
 1. Plug in USB on Watchy and select the serial port that shows up
 2. If nothing shows up, or if you're having trouble uploading, make sure you have the <ins>[USB-Serial drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)</ins> installed.
 2. Select **ESP32 Dev Module** under Tools > Board > ESP32 Arduino
-3. Select **Minimal SPIFFS** under Tools > Partition Scheme
+3. Select **Minimal SPIFFS** under Tools > Partition Scheme  
+    Please note: there are two options called **Minimal** but you must pick the one with **SPIFFS** in the name.
 4. Leave everything else as default
 6. Choose an example and hit upload
 7. Try modifiying the examples or create your own app!
