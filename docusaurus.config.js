@@ -121,7 +121,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/sqfmi/watchy-site',
+            'https://github.com/sqfmi/watchy-docs/edit/main/',
         },
         // blog: {
         //   showReadingTime: true,
