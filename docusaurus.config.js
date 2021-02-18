@@ -26,23 +26,29 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'watchfaces/',
+          to: 'watchfaces',
           activeBasePath: 'watchfaces',
           label: 'Watch Faces',
           position: 'left',
         },
         {
-          to: 'watchcases/',
+          to: 'watchcases',
           activeBasePath: 'watchcases',
           label: 'Watch Cases',
           position: 'left',
         },
         {
-          to: 'gallery/',
+          to: 'gallery',
           activeBasePath: 'gallery',
           label: 'Gallery',
           position: 'left',
-        },                         
+        },
+        {
+          to: 'contest',
+          activeBasePath: 'contest',
+          label: 'Case Design Contest!',
+          position: 'left',
+        },                                   
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://www.crowdsupply.com/sqfmi/watchy',

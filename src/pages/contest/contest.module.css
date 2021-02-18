@@ -1,0 +1,83 @@
+.contest{
+    text-align:center;
+}
+
+.contest h1{
+    margin-top:10px;
+}
+
+.contest h2{
+    margin-top:10px;
+}
+
+.contest figcaption{
+    text-align:left;
+    margin-left:12.5%;
+    font-style: italic;
+}
+
+.contest ul{
+    display:block;
+    text-align: left;
+    margin:0 auto;
+}
+
+.contest ul li{
+    padding:10px;
+}
+
+.contest .prize{
+    width:18em;
+}
+
+.contest .rules{
+    width:100%;
+    text-align: left;
+}
+
+.contest .rules li{
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 5em;
+}
+
+.contest .prize span{
+    float:right;
+}
+
+.contest .resources li{
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 5em;
+}
+
+#banner{
+    max-width:75%;
+    display:block;
+    margin: 0 auto;
+}
+
+/**/
+.submit{
+    text-align: center;
+}
+
+.submit a{
+    margin-top:10px;
+}
+
+.vote{
+    text-align: center;
+}
+
+.vote button{
+    margin-top:10px;
+}
+
+
+@media screen and (max-width: 966px) {
+    .contest .rules li{
+        padding-left: 0em;
+    }
+    
+  }
