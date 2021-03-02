@@ -38,6 +38,7 @@ function Hello() {
 
             <h2>Resources</h2>
             <ul className={contest.resources}>
+                <li>Here you will find the STEP, STL, Fusion 360 files and everything you'll need to get started!</li>
                 <li><a href="https://github.com/sqfmi/watchy-cases">https://github.com/sqfmi/watchy-cases</a></li>
             </ul>            
       </div>
