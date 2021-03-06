@@ -54,7 +54,7 @@ slug: /hardware
 
 * Microcontroller [ESP32-PICO-D4](https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf)
 * USB-Serial [CP2104](https://www.silabs.com/documents/public/data-sheets/cp2104.pdf)
-* E-Paper Display [GDEH0154D67](https://www.waveshare.com/w/upload/archive/e/e5/20200612092313%211.54inch_e-paper_V2_Datasheet.pdf)
+* E-Paper Display [GDEH0154D67](https://www.e-paper-display.com/products_detail/productId=455.html)
 * Display Connector [AFC07-S24ECC-00](https://datasheet.lcsc.com/szlcsc/1811021340_JUSHUO-AFC07-S24ECC-00_C11092.pdf)
 * 3-Axis Accelerometer [BMA423](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma423-ds004-00.pdf)
 * Real Time Clock [DS3231](https://datasheets.maximintegrated.com/en/ds/DS3231.pdf)
