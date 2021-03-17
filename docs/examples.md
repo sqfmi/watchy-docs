@@ -3,4 +3,6 @@ id: examples
 title: Examples
 ---
 
-Here is a page with brief descriptions of various code examples
+### Display Random Artwork on Watchy
+
+Check out this example by @wolfdtx https://github.com/wolfdtx/RandPics

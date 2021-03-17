@@ -51,6 +51,10 @@
     padding-left: 5em;
 }
 
+.contest a{
+    margin:30px 0;
+}
+
 #banner{
     max-width:75%;
     display:block;
@@ -68,10 +72,6 @@
 
 .vote{
     text-align: center;
-}
-
-.vote button{
-    margin-top:10px;
 }
 
 

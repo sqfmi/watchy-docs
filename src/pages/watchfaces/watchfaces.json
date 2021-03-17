@@ -214,5 +214,41 @@
         "source" : "https://github.com/mistablinky/Line-for-Watchy",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }                                                    
+    },
+    {
+        "id" : "24",
+        "name" : "Mickey",
+        "author" : "spinal",
+        "screenshot" : "/img/watchfaces/24_Mickey.png",
+        "source" : "https://github.com/spinalcode/Mickey",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "25",
+        "name" : "LCARS",
+        "author" : "peerdavid",
+        "screenshot" : "/img/watchfaces/25_LCARS.png",
+        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "26",
+        "name" : "Big Time",
+        "author" : "BraininaBowl",
+        "screenshot" : "/img/watchfaces/26_BigTime.png",
+        "source" : "https://github.com/BraininaBowl/Big-Time-for-Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "27",
+        "name" : "Poe",
+        "author" : "BraininaBowl",
+        "screenshot" : "/img/watchfaces/27_Poe.png",
+        "source" : "https://github.com/BraininaBowl/Poe-for-Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }                                                               
 ]

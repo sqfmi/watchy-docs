@@ -7,12 +7,13 @@ function Hello() {
     <Layout title="Watchy Case Design Contest">
     <div className="row row--no-gutters">
         <div className={"col col--3 "+contest.submit}>
-            <a className="button button--info" href="https://github.com/sqfmi/watchy-cases" target="_blank">Submit Your Design</a>            
+            <a className="button button--secondary" href="https://github.com/sqfmi/watchy-cases" target="_blank">Submit Your Design</a>
+            <p>***Contest is now closed, but feel free to contribute to our repo of open source case designs!***</p>            
         </div>
         <div className={"col col--6 " + contest.contest}>
             <h1>Watchy Case Design Contest!</h1>
-            <img id={contest.banner} src="/img/watchy_peechy_case_collage.png" />
-            <figcaption><a target="_blank" href="https://github.com/sqfmi/watchy-cases/tree/main/Peechy">Peechy by @Optogram</a></figcaption>
+            <img id={contest.banner} src="/img/watchy_case_contest_collage_IG.png" />
+            <a className="button button--lg button--info" href="https://forms.gle/PPDSEPRvnmYtpe9U9">Vote!</a>
     
             <h2>Prizes</h2>
             <ul className={contest.prize}>
@@ -43,7 +44,7 @@ function Hello() {
             </ul>            
       </div>
       <div className={"col col--3 "+contest.vote}>
-        <button className="button disabled button--secondary">Vote! (Coming Soon)</button>
+        
       </div>
     </div>
     </Layout>
