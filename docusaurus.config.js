@@ -46,7 +46,7 @@ module.exports = {
         {
           to: 'contest',
           activeBasePath: 'contest',
-          label: 'Case Design Contest!',
+          label: 'Case Design Contest',
           position: 'left',
         },                                   
         // {to: 'blog', label: 'Blog', position: 'left'},
