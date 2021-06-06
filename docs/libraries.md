@@ -40,4 +40,4 @@ See [**Create Your Own Watch Face**](/docs/create-watchface) to learn how to use
 
 ### Arduino_JSON
 
-[Arduino_JSON](https://github.com/arduino-libraries/Arduino_JSON) is used for parsing JSON string responses from API calls. Check out Watchy's [```getWeather()```](https://github.com/sqfmi/Watchy/blob/master/src/Watchy.cpp#L457) method example on how its used for parsing data from OpenWeather's REST API.
+[Arduino_JSON](https://github.com/arduino-libraries/Arduino_JSON) is used for parsing JSON string responses from API calls. Check out Watchy's [```getWeather()```](https://github.com/sqfmi/Watchy/blob/1.2.5/src/Watchy.cpp#L591) method example on how its used for parsing data from OpenWeather's REST API.
