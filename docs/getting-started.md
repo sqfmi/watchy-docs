@@ -10,6 +10,8 @@ slug: /getting-started
 
 **Before You Begin** make sure you review the instructions and inspect for any missing or damaged components.
 
+**Remove The Components Carefully** as they are tightly packed for maximum protection. The display is made of glass and will crack if you bend it!
+
 **Test Your PCB** to make sure the board is functional before taping everything down! The tape is very strong and it will be impossible to re-align/remove anything once secured.
 
 1. Connect the screen to the FPC connector, the shiny gold pins on the ribbon cable should be facing up
