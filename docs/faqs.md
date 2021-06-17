@@ -22,6 +22,22 @@ The front is the side that's whitish gray, with a white bezel at the bottom. The
 - You can also slide a thin hobby knife between the screen and the PCB to remove the adhesive. Work slowly!
 - Check out this video on Badgy for reference https://www.youtube.com/watch?v=0BzPnMsKN20
 
+### The case doesn't fit/close, how do I assemble it?
+
+1. Make sure the battery cable is neatly tucked into the slot
+![Step 1. Make sure the battery cable is neatly tucked into the slot](../static/img/case_assem/watchy_case_assem_1.jpg)
+
+2. Insert PCB and buttons into the bottom case. Make sure everything sits flush and nothing is popping out
+![Insert PCB and buttons into the bottom case. Make sure everything sits flush and nothing is popping out. Left](../static/img/case_assem/watchy_case_assem_2.jpg)
+![Insert PCB and buttons into the bottom case. Make sure everything sits flush and nothing is popping out. Right](../static/img/case_assem/watchy_case_assem_3.jpg)
+![Insert PCB and buttons into the bottom case. Make sure everything sits flush and nothing is popping out. Top](../static/img/case_assem/watchy_case_assem_4.jpg)
+
+3. Put on the top case by first hooking the upper snap
+![Put on the top case by first hooking the upper snap](../static/img/case_assem/watchy_case_assem_5.jpg)
+
+4. Close down the case with minimal force, there should be a satisfying "click"
+![Close down the case with minimal force, there should be a satisfying "click"](../static/img/case_assem/watchy_case_assem_6.jpg)
+
 ### I'm getting a ```Failed to execute script esptool``` error
 
 This is a known issue for macOS 11 "Big Sur", see https://github.com/espressif/arduino-esp32/issues/4408 for solutions

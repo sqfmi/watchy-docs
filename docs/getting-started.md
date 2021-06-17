@@ -28,8 +28,11 @@ slug: /getting-started
 - **Apply the screen protector AFTER assembling it in the case and note the orientation.** This will prevent misaligned screen and case
 - **Do NOT force the case to close. It could break the buttons!** The case should close easily with a light snap. It's easier to anchor the top snap first, then close down to the bottom snap.
 - **Do NOT overtighten the screws in the aluminum case** Overtightening will crack the screen! Make sure everything fits nicely and slowly adjust the screws to secure the case.
+- **Still having trouble?** Check out this step-by-step guide on assembling the case in our [FAQ](/docs/faqs#the-case-doesnt-fitclose-how-do-i-assemble-it)
 
-Assembly video: https://www.youtube.com/watch?v=ftLTrr_HTpI
+Assembly Video: https://www.youtube.com/watch?v=ftLTrr_HTpI
+
+Assembly Video (CNC Aluminum Case): https://www.youtube.com/watch?v=rbVr9eVb72M
 
 ## Watchy Original Assembly
 ![Watchy OG Assembly](../static/img/watchy_assembly_steps.png)
