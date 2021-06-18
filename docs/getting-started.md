@@ -14,17 +14,23 @@ slug: /getting-started
 
 **Test Your PCB** to make sure the board is functional before taping everything down! The tape is very strong and it will be impossible to re-align/remove anything once secured.
 
-1. Connect the screen to the FPC connector, the shiny gold pins on the ribbon cable should be facing up
+1. Connect the screen to the FPC connector, the shiny gold pins on the ribbon cable should be facing up. The ribbon cable goes through the PCB slot like in the image above.
 2. Connect the battery
 3. Connect the USB to start charging the battery
-4. Press [SW1](/docs/hardware#bill-of-materials) to bring up the **menu**/**confirm**
+4. Press [[SW1](/docs/hardware#bill-of-materials) to bring up the **menu**/**confirm**
 5. Press [SW3](/docs/hardware#bill-of-materials) & [SW4](/docs/hardware#bill-of-materials) to navigate **up**/**down**
-6. Press [SW2](/docs/hardware#bill-of-materials) to **exit/cancel**
+6. Press [SW2](/docs/hardware#bill-of-materials) to **exit/cancel**]
+
+![Watchy Buttons](../static/img/watchy_buttons_map.png)
+
 7. Wait 1 minute to check and see if the clock is updating the time correctly
 
 **Tips**
 
 - **Make sure the screen is perfectly aligned when taping it down!** It should not extend above or below the strap holes on the PCB.
+
+![Watchy Screen Alignment](../static/img/watchy_screen_align.png)
+
 - **Apply the screen protector AFTER assembling it in the case and note the orientation.** This will prevent misaligned screen and case
 - **Do NOT force the case to close. It could break the buttons!** The case should close easily with a light snap. It's easier to anchor the top snap first, then close down to the bottom snap.
 - **Do NOT overtighten the screws in the aluminum case** Overtightening will crack the screen! Make sure everything fits nicely and slowly adjust the screws to secure the case.

@@ -15,19 +15,17 @@ E-Ink/E-Paper is the same technology used in devices like the Kindle. E-Ink is a
 
 The front is the side that's whitish gray, with a white bezel at the bottom. The back is metallic and mirror-like.
 
-### I stuck on the screen the wrong way, help!
-
-- **Do Not Pry Off the Screen!** It is made of glass and prying it off the strong adhesive will definitely crack it
-- There is a screen protector on the screen (you can lift it off with the green tab), try to lift it off to save your screen
-- You can also slide a thin hobby knife between the screen and the PCB to remove the adhesive. Work slowly!
-- Check out this video on Badgy for reference https://www.youtube.com/watch?v=0BzPnMsKN20
+### I need to realign/remove the screen, help!
+- **Do Not Pry Off the Screen!** It is made of glass and prying it off the strong adhesive will crack it
+- **Do Not Use A Heatgun To Melt The Adhesive!** Temperatures over 60C will damage the screen
+- Check out this video on how to remove the screen using floss https://youtu.be/OjCd0NY1Yx0
 
 ### The case doesn't fit/close, how do I assemble it?
 
 1. Make sure the battery cable is neatly tucked into the slot
 ![Step 1. Make sure the battery cable is neatly tucked into the slot](../static/img/case_assem/watchy_case_assem_1.jpg)
 
-2. Insert PCB and buttons into the bottom case. Make sure everything sits flush and nothing is popping out
+2. Insert PCB and buttons into the bottom case. Make sure everything sits flush and nothing is popping out.
 ![Insert PCB and buttons into the bottom case. Make sure everything sits flush and nothing is popping out. Left](../static/img/case_assem/watchy_case_assem_2.jpg)
 ![Insert PCB and buttons into the bottom case. Make sure everything sits flush and nothing is popping out. Right](../static/img/case_assem/watchy_case_assem_3.jpg)
 ![Insert PCB and buttons into the bottom case. Make sure everything sits flush and nothing is popping out. Top](../static/img/case_assem/watchy_case_assem_4.jpg)
