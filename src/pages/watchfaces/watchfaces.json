@@ -255,7 +255,7 @@
         "id" : "28",
         "name" : "Kitty",
         "author" : "MSGoodman",
-        "screenshot" : "/img/watchfaces/28_Kitty.png",
+        "screenshot" : "https://github.com/MSGoodman/Kitty-for-Watchy/raw/main/GhostKittyWatchFace.jpg",
         "source" : "https://github.com/MSGoodman/Kitty-for-Watchy",
         "ota_bin" : false,
         "version" : "1.0.0"
