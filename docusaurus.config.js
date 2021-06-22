@@ -43,12 +43,12 @@ module.exports = {
           label: 'Gallery',
           position: 'left',
         },
-        {
-          to: 'contest',
-          activeBasePath: 'contest',
-          label: 'Case Design Contest',
-          position: 'left',
-        },                                   
+        // {
+        //   to: 'contest',
+        //   activeBasePath: 'contest',
+        //   label: 'Case Design Contest',
+        //   position: 'left',
+        // },                                   
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://www.crowdsupply.com/sqfmi/watchy',
