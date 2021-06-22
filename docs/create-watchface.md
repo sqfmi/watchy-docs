@@ -48,7 +48,7 @@ void loop() {
 Since the E-Paper display is black and white only, you will need to convert any images/icons you wish to display into black and white first.
 The image then needs to be converted into a byte array, and stored in Watchy's flash.
 
-#### Convert image  to byte array (image2cpp)
+#### Convert image to byte array (image2cpp)
 
 You can convert your images to byte arrays using the web tool <ins>[**image2cpp**](http://javl.github.io/image2cpp/)</ins>
 
@@ -69,3 +69,23 @@ You can use custom fonts by converting them first with the tool <ins>[**truetype
 2. In your watch face file e.g. ```myFirstWatchFace.ino```, include that header file e.g. ```#include "Seven_Segment10pt7b.h"```
 
 3. Use ```display.setFont(&Seven_Segment10pt7b)``` to set the current font face (don't forget the ampersand before the font name). You will have to call the ```display.setFont()``` method each time you wish to use another font. Use ```display.setCursor(x, y)``` to set where to start printing text, the coordinates refer to the *lower left corner* of the text to be printed.
+
+### Share Your Watch Face!
+
+We'd love to see what you've created! Share your watch face with us and we'll post it on our gallery:
+
+1. Make sure you have a GitHub repo with the source code, and a 200x200 screenshot of the watch face (must be a black and white \*.bmp or \*.gif)
+2. Add your watch face to the bottom of this [`json file`](https://github.com/sqfmi/watchy-docs/blob/main/src/pages/watchfaces/watchfaces.json) like so:
+```json
+    {
+        "id" : "ID_NUMBER",
+        "name" : "WATCH_FACE_NAME",
+        "author" : "AUTHOR",
+        "screenshot" : "SCREENSHOT_URL",
+        "source" : "GITHUB_URL",
+        "ota_bin" : false,
+        "version" : "VERSION_NUMBER"
+    }  
+```
+3. You may want to check for other PRs so your ID number is the latest
+4. Submit the PR for review and merge

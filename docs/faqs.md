@@ -75,6 +75,10 @@ This is a known issue for macOS 11 "Big Sur", see https://github.com/espressif/a
 3. The screen protector can be removed and re-applied if necessary. Simply peel it off and clean it with dish soap and let to dry
 4. A drop of rubbing alcohol on the screen before applying the protector may also help squeeze out the bubbles
 
+### I made a watch face and I want to share it on the gallery!
+
+Check out these instructions [here](/docs/create-watchface#share-your-watch-face)
+
 ### I have another issue, could you help me out?
 
 - Open an issue on our [Github](https://github.com/sqfmi/Watchy/issues), provide additional details on your setup (e.g. OS, Arduino Version, etc.) and photos of your Watchy
