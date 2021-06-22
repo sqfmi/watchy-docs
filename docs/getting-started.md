@@ -66,7 +66,7 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
     ```
 4. Open **Boards Manager** under Tools > Board menu and install the *esp32* platform
 5. Under Sketch > Include Library > Manage Libraries, search for **Watchy** and install the latest version
-6. Make sure all the depedencies are updated to the latest version i.e. **GxEPD2** , **WiFiManager**, **etc.**
+6. Make sure all the dependencies are updated to the latest version i.e. **GxEPD2** , **WiFiManager**, **etc.**
 
 ---
 
@@ -79,4 +79,4 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
     Note: there are two options called **Minimal**, make sure you pick the one with **SPIFFS** in the name
 4. Leave everything else as default
 6. Choose an example and hit upload
-7. Try modifiying the examples or create your own app!
+7. Try modifying the examples or create your own app!

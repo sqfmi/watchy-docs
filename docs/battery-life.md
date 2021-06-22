@@ -7,7 +7,7 @@ slug: /battery-life
 
 Watchy wakes up every 60 seconds to check the accelerometer, real-time clock, and updates the E-Paper display with the latest information. Certain watch faces also turn on WiFi to fetch weather data.
 
-With only time keeping, Watchy should have a battery life of 5-7 days, while with fetching data over WiFi, it should last between 2-3 days. These numbers can be extended through futher optimizations (e.g. sleep during off hours, waking up only on motion/tilt, etc.).
+With only time keeping, Watchy should have a battery life of 5-7 days, while with fetching data over WiFi, it should last between 2-3 days. These numbers can be extended through further optimizations (e.g. sleep during off hours, waking up only on motion/tilt, etc.).
 
 ## Tips
 
