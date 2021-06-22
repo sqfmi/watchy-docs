@@ -82,7 +82,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              to: 'https://discord.com/invite/XYC5j7NJat',
+              to: 'https://discord.gg/ZXDegGV8E7',
             },                       
           ],
         },        
