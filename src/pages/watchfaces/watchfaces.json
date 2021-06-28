@@ -261,12 +261,21 @@
         "version" : "1.0.0"
     },
     {
-    "id" : "29",
-    "name" : "BotWatchy",
-    "author" : "mehtmehtsen",
-    "screenshot" : "https://github.com/mehtmehtsen/BotWatchy/raw/master/watchface.gif",
-    "source" : "https://github.com/mehtmehtsen/BotWatchy",
-    "ota_bin" : false,
-    "version" : "1.0.0"
-    }  
+        "id" : "29",
+        "name" : "BotWatchy",
+        "author" : "mehtmehtsen",
+        "screenshot" : "https://github.com/mehtmehtsen/BotWatchy/raw/master/watchface.gif",
+        "source" : "https://github.com/mehtmehtsen/BotWatchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "30",
+        "name" : "dkTime",
+        "author" : "dezign999",
+        "screenshot" : "/img/watchfaces/30_dkTime.gif",
+        "source" : "https://github.com/dezign999/dkTime",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }        
 ]
