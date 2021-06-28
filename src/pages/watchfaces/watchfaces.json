@@ -264,7 +264,7 @@
     "id" : "29",
     "name" : "BotWatchy",
     "author" : "mehtmehtsen",
-    "screenshot" : "https://github.com/mehtmehtsen/BotWatchy/blob/master/watchface.gif",
+    "screenshot" : "https://github.com/mehtmehtsen/BotWatchy/raw/master/watchface.gif",
     "source" : "https://github.com/mehtmehtsen/BotWatchy",
     "ota_bin" : false,
     "version" : "1.0.0"
