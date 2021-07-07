@@ -286,5 +286,14 @@
         "source" : "https://github.com/jeandeaual/Watchy-Revolution",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "32",
+        "name" : "pxl999",
+        "author" : "dezign999",
+        "screenshot" : "https://github.com/dezign999/pxl999/blob/main/pxl999.gif?raw=true",
+        "source" : "https://github.com/dezign999/pxl999",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
