@@ -43,12 +43,12 @@ module.exports = {
           label: 'Gallery',
           position: 'left',
         },
-        {
-          to: 'contest',
-          activeBasePath: 'contest',
-          label: 'Case Design Contest',
-          position: 'left',
-        },                                   
+        // {
+        //   to: 'contest',
+        //   activeBasePath: 'contest',
+        //   label: 'Case Design Contest',
+        //   position: 'left',
+        // },                                   
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://www.crowdsupply.com/sqfmi/watchy',
@@ -82,7 +82,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              to: 'https://discord.com/invite/XYC5j7NJat',
+              to: 'https://discord.gg/ZXDegGV8E7',
             },                       
           ],
         },        

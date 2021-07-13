@@ -25,7 +25,7 @@ See [**Create Your Own Watch Face**](/docs/create-watchface) to learn how to use
 
 ### DS3232RTC
 
-[DS3232RTC](https://github.com/JChristensen/DS3232RTC) is an Arduino library for the DS3231 Real-Time Clock. You can set and read the current time/date and configure alarm interrupts. The DS3231 RTC on Watchy is connected over I2C, so it requires the Wire Arduino library. The Watchy library configues *Alarm2* to trigger an interrupt every minute, waking the ESP32 from deep sleep to update the watch face.
+[DS3232RTC](https://github.com/JChristensen/DS3232RTC) is an Arduino library for the DS3231 Real-Time Clock. You can set and read the current time/date and configure alarm interrupts. The DS3231 RTC on Watchy is connected over I2C, so it requires the Wire Arduino library. The Watchy library configures *Alarm2* to trigger an interrupt every minute, waking the ESP32 from deep sleep to update the watch face.
 
 ## Motion Sensing
 

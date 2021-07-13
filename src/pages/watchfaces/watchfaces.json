@@ -25,7 +25,7 @@
       "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/7_SEG",
       "ota_bin" : true,
       "version" : "1.0.0"
-    },     
+    },
     {
         "id" : "3",
         "name" : "DOS",
@@ -250,5 +250,50 @@
         "source" : "https://github.com/BraininaBowl/Poe-for-Watchy",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }                                                               
+    },
+    {
+        "id" : "28",
+        "name" : "Kitty",
+        "author" : "MSGoodman",
+        "screenshot" : "https://github.com/MSGoodman/Kitty-for-Watchy/raw/main/GhostKittyWatchFace.jpg",
+        "source" : "https://github.com/MSGoodman/Kitty-for-Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "29",
+        "name" : "BotWatchy",
+        "author" : "mehtmehtsen",
+        "screenshot" : "https://github.com/mehtmehtsen/BotWatchy/raw/master/watchface.gif",
+        "source" : "https://github.com/mehtmehtsen/BotWatchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "30",
+        "name" : "dkTime",
+        "author" : "dezign999",
+        "screenshot" : "/img/watchfaces/30_dkTime.gif",
+        "source" : "https://github.com/dezign999/dkTime",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "31",
+        "name" : "Revolution",
+        "author" : "jeandeaual",
+        "screenshot" : "https://github.com/jeandeaual/Watchy-Revolution/raw/master/screenshots/watchfaces.gif",
+        "source" : "https://github.com/jeandeaual/Watchy-Revolution",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "32",
+        "name" : "pxl999",
+        "author" : "dezign999",
+        "screenshot" : "https://github.com/dezign999/pxl999/blob/main/pxl999.gif?raw=true",
+        "source" : "https://github.com/dezign999/pxl999",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }
 ]
