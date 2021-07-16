@@ -68,9 +68,7 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
 5. Under Sketch > Include Library > Manage Libraries, search for **Watchy** and install the latest version
 6. Make sure all the dependencies are updated to the latest version i.e. **GxEPD2** , **WiFiManager**, **etc.**
 
----
-
-## Upload
+### Upload
 
 1. Plug in USB on Watchy and select the serial port that shows up
 2. If nothing shows up, or if you're having trouble uploading, make sure you have the <ins>[USB-Serial drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)</ins> installed.
@@ -79,4 +77,65 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
     Note: there are two options called **Minimal**, make sure you pick the one with **SPIFFS** in the name
 4. Leave everything else as default
 6. Choose an example and hit upload
-7. Try modifying the examples or create your own app!
+7. Try modifiying the examples or create your own app!
+
+---
+
+## PlatformIO Setup
+
+[PlatformIO](https://platformio.org/) is a compatible alternative to arduino. It more oriented for the command line user, but it also is more flexible and predictable in build configurations and dependency management (like libraries).
+
+It has two parts: a "core" that has the command line tools that build and upload/flash, and an "ide" which is a bunch of plugins and extensions for editors you can [find here](https://platformio.org/install/integration).
+
+Use whichever extensions you wish but this documentation is related to the core, so:
+
+- [Install with instructions here](https://docs.platformio.org/en/latest//core/installation.html).
+
+### Simple watchface example
+
+This is example is to create a new watch face project, it starts by copying one of the examples to the `src/` folder where you can make your own. However it will not make it easy to edit the watchy library, or its `config.h` file, which many want to, for that see the section below.
+
+- Create a new folder and setup the PlatformIO project layout
+```bash
+mkdir my_new_watchy_face_project
+cd my_new_watchy_face_project
+pio project init --board esp32dev
+```
+
+- Add the following to the `platformio.ini` file. Note that if you want to use another version of the Watchy library, you can put any file or git path here.
+```ini
+lib_deps =
+    https://github.com/sqfmi/Watchy
+lib_ldf_mode = deep+
+board_build.partitions = min_spiffs.csv
+```
+
+- Run PlatformIO, it will download dependencies such as the Watchy library, but then fail to compile because there aren't any source files in `src/` yet. So when the dependencies are downloaded, copy the `7_SEG` example files to `src/`.
+```bash
+pio run # will fail compilation but will download dependencies
+cp .pio/libdeps/esp32dev/Watchy/examples/WatchFaces/7_SEG/*.{ino,cpp,h} src/
+```
+
+- Plug in your watchy, compile and then upload the watch face:
+```bash
+pio run -t upload
+```
+
+- Watch the serial port output
+```bash
+pio device monitor
+```
+
+- Celebrate by watching ascii star wars
+```bash
+telnet towel.blinkenlights.nl
+```
+
+- Additional keys you'll probably want to add to your `platformio.ini` file:
+```ini
+upload_speed = 3000000
+upload_port = /dev/cu.usbserial-MQK8G8
+monitor_port = /dev/cu.usbserial-MQK8G8
+monitor_speed = 115200
+monitor_filters = esp32_exception_decoder
+```
