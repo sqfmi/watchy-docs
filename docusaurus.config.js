@@ -107,11 +107,13 @@ module.exports = {
           title: 'Shop',
           items: [
             {
-              label: 'Mouser',
-              href: 'https://www.mouser.com/manufacturer/sqfmi/',
               label: 'SQFMI Shop',
-              href: 'https://shop.sqfmi.com',              
-            }
+              href: 'https://shop.sqfmi.com',
+            },
+            {
+              label: 'Mouser',
+              href: 'https://www.mouser.com/manufacturer/sqfmi/',        
+            },
           ],
         },        
       ],
