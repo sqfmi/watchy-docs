@@ -51,7 +51,7 @@ module.exports = {
         // },                                   
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://www.crowdsupply.com/sqfmi/watchy',
+          href: 'https://www.mouser.com/manufacturer/sqfmi/',
           label: 'Buy Watchy!',
           position: 'right',
         },
@@ -107,8 +107,10 @@ module.exports = {
           title: 'Shop',
           items: [
             {
-              label: 'Crowd Supply',
-              href: 'https://www.crowdsupply.com/sqfmi/watchy',
+              label: 'Mouser',
+              href: 'https://www.mouser.com/manufacturer/sqfmi/',
+              label: 'SQFMI Shop',
+              href: 'https://shop.sqfmi.com',              
             }
           ],
         },        
