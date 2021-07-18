@@ -17,9 +17,9 @@ slug: /getting-started
 1. Connect the screen to the FPC connector, the shiny gold pins on the ribbon cable should be facing up. The ribbon cable goes through the PCB slot like in the image above.
 2. Connect the battery
 3. Connect the USB to start charging the battery
-4. Press [[SW1](/docs/hardware#bill-of-materials) to bring up the **menu**/**confirm**
+4. Press [SW1](/docs/hardware#bill-of-materials) to bring up the **menu**/**confirm**
 5. Press [SW3](/docs/hardware#bill-of-materials) & [SW4](/docs/hardware#bill-of-materials) to navigate **up**/**down**
-6. Press [SW2](/docs/hardware#bill-of-materials) to **exit/cancel**]
+6. Press [SW2](/docs/hardware#bill-of-materials) to **exit/cancel**
 
 ![Watchy Buttons](../static/img/watchy_buttons_map.png)
 
