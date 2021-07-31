@@ -296,12 +296,21 @@
         "ota_bin" : false,
         "version" : "1.0.0"
     },
-        {
+    {
         "id" : "33",
-        "name" : "SmartWatch",
-        "author" : "cbrookins",
-        "screenshot" : "https://github.com/cbrookins/SmartWatch/blob/main/SmartWatch.gif?raw=true",
-        "source" : "https://github.com/cbrookins/SmartWatch",
+        "name" : "SmartWatchy",
+        "author" : "c2c2",
+        "screenshot" : "https://github.com/theRealc2c2/SmartWatch/blob/main/SmartWatch.gif?raw=true",
+        "source" : "https://github.com/theRealc2c2/SmartWatch",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "34",
+        "name" : "X marks the spot",
+        "author" : "c2c2",
+        "screenshot" : "https://github.com/theRealc2c2/x-marks-the-spot/blob/main/x.gif?raw=true",
+        "source" : "https://github.com/theRealc2c2/x-marks-the-spot",
         "ota_bin" : false,
         "version" : "1.0.0"
     } 
