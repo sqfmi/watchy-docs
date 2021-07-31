@@ -82,7 +82,7 @@ Check out these instructions [here](/docs/create-watchface#share-your-watch-face
 ### I have another issue, could you help me out?
 
 - Open an issue on our [Github](https://github.com/sqfmi/Watchy/issues), provide additional details on your setup (e.g. OS, Arduino Version, etc.) and photos of your Watchy
-- Ping us on [Discord](https://discord.com/invite/XYC5j7NJat)!
+- Ping us on [Discord](https://discord.gg/ZXDegGV8E7)!
 
 ### I need a replacement screen/strap/case, where can I get one?
 
