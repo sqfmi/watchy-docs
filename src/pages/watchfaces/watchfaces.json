@@ -313,5 +313,14 @@
         "source" : "https://github.com/theRealc2c2/x-marks-the-spot",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "35",
+        "name" : "QArtCode",
+        "author" : "Tristan Roddis",
+        "screenshot" : "https://github.com/CogappLabs/qartcode/blob/main/WatchFaces/QArtCode/broken.png?raw=true",
+        "source" : "https://github.com/CogappLabs/qartcode/tree/main/WatchFaces/QArtCode",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     } 
 ]
