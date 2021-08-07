@@ -340,5 +340,14 @@
         "source" : "https://github.com/bmsleight/Exactly-Words",
         "ota_bin" : false,
         "version" : "eecb880"
+    },
+    {
+        "id" : "38",
+        "name" : "watchy_fbsd",
+        "author" : "charlesrocket",
+        "screenshot" : "https://raw.githubusercontent.com/charlesrocket/watchy_fbsd/master/doc/screenshot.gif",
+        "source" : "https://github.com/charlesrocket/watchy_fbsd",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
