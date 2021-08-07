@@ -331,5 +331,14 @@
         "source" : "https://github.com/StuAngel/s2Analog",
         "ota_bin" : false,
         "version" : "1.0.1"
-    }      
+    },
+    {
+        "id" : "37",
+        "name" : "Exactly-Words",
+        "author" : "Brendan M. Sleight",
+        "screenshot" : "https://raw.githubusercontent.com/bmsleight/Exactly-Words/main/screenshots/watchfaces.gif",
+        "source" : "https://github.com/bmsleight/Exactly-Words",
+        "ota_bin" : false,
+        "version" : "eecb880"
+    }
 ]
