@@ -349,5 +349,14 @@
         "source" : "https://github.com/charlesrocket/watchy_fbsd",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "39",
+        "name" : "Skully",
+        "author" : "charlesrocket",
+        "screenshot" : "https://raw.githubusercontent.com/charlesrocket/skully/master/doc/screenshot.gif",
+        "source" : "https://github.com/charlesrocket/skully",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
