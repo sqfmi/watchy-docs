@@ -358,5 +358,14 @@
         "source" : "https://github.com/charlesrocket/skully",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }
+    },
+    {
+        "id" : "40",
+        "name" : "SW_Watchy",
+        "author" : "anycam",
+        "screenshot" : "https://github.com/anycam/SW_WatchyFace/raw/main/Images/Animated.gif",
+        "source" : "https://github.com/anycam/SW_WatchyFace",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }  
 ]
