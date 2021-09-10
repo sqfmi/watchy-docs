@@ -367,5 +367,14 @@
         "source" : "https://github.com/anycam/SW_WatchyFace",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "41",
+        "name" : "Chronometer",
+        "author" : "t26y",
+        "screenshot" : "https://raw.githubusercontent.com/t26y/Watchy-Screen-Chronometer/master/design/preview.bmp",
+        "source" : "https://github.com/t26y/Watchy-Screen-Chronometer",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }  
 ]
