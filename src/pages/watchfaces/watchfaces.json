@@ -376,5 +376,14 @@
         "source" : "https://github.com/t26y/Watchy-Screen-Chronometer",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }  
+    },
+    {
+        "id" : "42",
+        "name" : "Watchy PowerShell",
+        "author" : "Lee Holmes",
+        "screenshot" : "https://github.com/LeeHolmes/watchy_powershell/blob/main/example.gif?raw=true",
+        "source" : "https://github.com/LeeHolmes/watchy_powershell",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }   
 ]
