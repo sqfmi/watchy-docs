@@ -83,7 +83,7 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
 
 ## PlatformIO Setup
 
-[PlatformIO](https://platformio.org/) is a compatible alternative to arduino. It more oriented for the command line user, but it also is more flexible and predictable in build configurations and dependency management (like libraries).
+[PlatformIO](https://platformio.org/) is a compatible alternative to arduino. It is more oriented for the command line user, but it also is more flexible and predictable in build configurations and dependency management (like libraries).
 
 It has two parts: a "core" that has the command line tools that build and upload/flash, and an "ide" which is a bunch of plugins and extensions for editors you can [find here](https://platformio.org/install/integration).
 
