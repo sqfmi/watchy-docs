@@ -12,7 +12,9 @@ slug: /getting-started
 
 **Remove The Components Carefully** as they are tightly packed for maximum protection. The display is made of glass and will crack if you bend it!
 
-**Test Your PCB** to make sure the board is functional before taping everything down! The tape is very strong and it will be impossible to re-align/remove anything once secured.
+**Test Your PCB** to make sure the board is functional!
+
+**Do Not Apply The Included Tape!!** Watchy can be assembled and secured with the included enclosure, without needing any tape. Only apply the tape if you intend to use Watchy without the enclosure, and have triple checked the screen is properly aligned.
 
 1. Connect the screen to the FPC connector, the shiny gold pins on the ribbon cable should be facing up. The ribbon cable goes through the PCB slot like in the image above.
 2. Connect the battery
@@ -27,12 +29,12 @@ slug: /getting-started
 
 **Tips**
 
-- **Make sure the screen is perfectly aligned when taping it down!** It should not extend above or below the strap holes on the PCB.
+- **Make sure the screen is perfectly aligned before taping it down!** It should not extend above or below the strap holes on the PCB.
 
 ![Watchy Screen Alignment](../static/img/watchy_screen_align.png)
 
-- **Apply the screen protector AFTER assembling it in the case and note the orientation.** This will prevent misaligned screen and case
-- **Do NOT force the case to close. It could break the buttons!** The case should close easily with a light snap. It's easier to anchor the top snap first, then close down to the bottom snap.
+- **Make sure the battery cable is tucked in** Everything should fit snug and aligned to the bottom case, before securing the top case.
+- **Do NOT force the case to close. It could break the screen & buttons!** The case should close easily with the top and bottom snaps latching.
 - **Do NOT overtighten the screws in the aluminum case** Overtightening will crack the screen! Make sure everything fits nicely and slowly adjust the screws to secure the case.
 - **Still having trouble?** Check out this step-by-step guide on assembling the case in our [FAQ](/docs/faqs#the-case-doesnt-fitclose-how-do-i-assemble-it)
 
