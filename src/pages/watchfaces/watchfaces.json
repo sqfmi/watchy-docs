@@ -388,11 +388,29 @@
     },
     {
         "id" : "43",
+        "name" : "Tetris 2.0",
+        "author" : "Klemek",
+        "screenshot" : "https://raw.githubusercontent.com/Klemek/watchy/master/watchfaces/tetris-2.0/preview.bmp?raw=true",
+        "source" : "https://github.com/Klemek/watchy/tree/master/watchfaces/tetris-2.0",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "44",
+        "name" : "Pokemon 2.0",
+        "author" : "Klemek",
+        "screenshot" : "https://raw.githubusercontent.com/Klemek/watchy/master/watchfaces/pokemon-2.0/preview.bmp?raw=true",
+        "source" : "https://github.com/Klemek/watchy/tree/master/watchfaces/pokemon-2.0",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "45",
         "name" : "QLock",
         "author" : "vtu-dog",
         "screenshot" : "https://raw.githubusercontent.com/vtu-dog/qlock/master/images/face.bmp",
         "source" : "https://github.com/vtu-dog/qlock",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }
+    }  
 ]
