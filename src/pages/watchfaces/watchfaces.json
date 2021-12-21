@@ -385,5 +385,14 @@
         "source" : "https://github.com/LeeHolmes/watchy_powershell",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }   
+    },
+    {
+        "id" : "43",
+        "name" : "QLock",
+        "author" : "vtu-dog",
+        "screenshot" : "https://raw.githubusercontent.com/vtu-dog/qlock/master/images/face.bmp",
+        "source" : "https://github.com/vtu-dog/qlock",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }
 ]
