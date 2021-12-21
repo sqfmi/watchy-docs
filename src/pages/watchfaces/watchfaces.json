@@ -403,5 +403,14 @@
         "source" : "https://github.com/Klemek/watchy/tree/master/watchfaces/pokemon-2.0",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }
+    },
+    {
+        "id" : "45",
+        "name" : "QLock",
+        "author" : "vtu-dog",
+        "screenshot" : "https://raw.githubusercontent.com/vtu-dog/qlock/master/images/face.bmp",
+        "source" : "https://github.com/vtu-dog/qlock",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }  
 ]
