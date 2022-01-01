@@ -412,5 +412,32 @@
         "source" : "https://github.com/vtu-dog/qlock",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "46",
+        "name" : "Triangle",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/Triangle_Watchy/main/watchface.gif",
+        "source" : "https://github.com/My-Key/Triangle_Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "47",
+        "name" : "Castle of Watchy",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/Castle_of_Watchy/main/Watchface.gif",
+        "source" : "https://github.com/My-Key/Castle_of_Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "48",
+        "name" : "Kave Watchy",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/Kave_Watchy/main/Watchface.gif",
+        "source" : "https://github.com/My-Key/Kave_Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }  
 ]
