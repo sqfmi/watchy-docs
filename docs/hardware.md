@@ -56,7 +56,7 @@ slug: /hardware
 * USB-Serial [CP2104](https://www.silabs.com/documents/public/data-sheets/cp2104.pdf)
 * E-Paper Display [GDEH0154D67](https://www.e-paper-display.com/products_detail/productId=455.html)
 * Display Connector [AFC07-S24ECC-00](https://datasheet.lcsc.com/szlcsc/1811021340_JUSHUO-AFC07-S24ECC-00_C11092.pdf)
-* 3-Axis Accelerometer [BMA423](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma423-ds004-00.pdf)
+* 3-Axis Accelerometer [BMA423](../static/pdf/BST-BMA423-DS000-1509600.pdf)
 * Real Time Clock [DS3231](https://datasheets.maximintegrated.com/en/ds/DS3231.pdf)
 * Battery [LiPo Battery 3.7V 200mAh 402030](https://www.powerstream.com/lip/GMB042030.pdf)
 * LDO Voltage Regulator [ME6211C33M5G-N](https://datasheet.lcsc.com/szlcsc/Nanjing-Micro-One-Elec-ME6211C33M5G-N_C82942.pdf)
