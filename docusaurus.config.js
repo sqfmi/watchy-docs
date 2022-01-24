@@ -114,6 +114,10 @@ module.exports = {
               label: 'Mouser',
               href: 'https://www.mouser.com/manufacturer/sqfmi/',        
             },
+            {
+              label: 'Crowd Supply',
+              href: 'https://www.crowdsupply.com/sqfmi/watchy',        
+            },
           ],
         },        
       ],
