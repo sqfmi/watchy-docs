@@ -439,5 +439,14 @@
         "source" : "https://github.com/My-Key/Kave_Watchy",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }  
+    },
+    {
+        "id" : "49",
+        "name" : "Slacker",
+        "author" : "uCBill",
+        "screenshot" : "https://raw.githubusercontent.com/uCBill/Slacker/main/Slacker.gif",
+        "source" : "https://github.com/uCBill/Slacker",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }
 ]
