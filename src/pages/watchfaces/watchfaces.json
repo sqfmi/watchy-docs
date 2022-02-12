@@ -448,5 +448,14 @@
         "source" : "https://github.com/uCBill/Slacker",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "50",
+        "name" : "Sundial",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/WatchySundial/main/watchface.gif,
+        "source" : "https://github.com/My-Key/WatchySundial",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
