@@ -14,9 +14,11 @@ To create a basic watch face, you need to simply override the ```drawWatchFace()
 ```cpp title="myFirstWatchFace.ino"
 #include <Watchy.h> //include the Watchy library
 #include <Fonts/FreeMonoOblique24pt7b.h> //include any fonts you want to use
+#include "settings.h" //same file as the one from 7_SEG example
 
 class MyFirstWatchFace : public Watchy{ //inherit and extend Watchy class
     public:
+        MyFirstWatchFace(const watchySettings& s) : Watchy(s) {}
         void drawWatchFace(){ //override this method to customize how the watch face looks
           display.setFont(&FreeMonoOblique24pt7b);
           display.setCursor(25, 110);
@@ -32,7 +34,7 @@ class MyFirstWatchFace : public Watchy{ //inherit and extend Watchy class
         }
 };
 
-MyFirstWatchFace m; //instantiate your watchface
+MyFirstWatchFace m(settings); //instantiate your watchface
 
 void setup() {
   m.init(); //call init in setup
