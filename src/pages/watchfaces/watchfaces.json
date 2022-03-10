@@ -457,5 +457,14 @@
         "source" : "https://github.com/My-Key/WatchySundial",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "51",
+        "name" : "The Blob",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/TheBlob/main/watchface.gif",
+        "source" : "https://github.com/My-Key/TheBlob",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
