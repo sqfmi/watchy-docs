@@ -466,5 +466,14 @@
         "source" : "https://github.com/My-Key/TheBlob",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "52",
+        "name" : "Watchy GSR",
+        "author" : "GuruSR",
+        "screenshot" : "https://github.com/GuruSR/Watchy_GSR/blob/main/Images/Watchy_GSR.gif?raw=true",
+        "source" : "https://github.com/GuruSR/Watchy_GSR",
+        "ota_bin" : true,
+        "version" : "1.4.3"
     }
 ]
