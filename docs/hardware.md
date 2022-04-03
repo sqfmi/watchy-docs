@@ -8,33 +8,37 @@ slug: /hardware
 ## Schematic
 
 ![Watchy Schematic](../static/img/watchy_schematic_light.svg)
-[PDF Download](../static/pdf/watchy_schematic.pdf)
+[v2.0](https://github.com/sqfmi/watchy-hardware/blob/v2.0/WatchySchematic.pdf)
+[v1.5](https://github.com/sqfmi/watchy-hardware/blob/v1.5/WatchySchematic.pdf)
+[v1.0](https://github.com/sqfmi/watchy-hardware/blob/v1.0/WatchySchematic.pdf)
 
 ---
 
 ## Pin Map
 
-| ESP32-PICO-D4 | GDEH0154D67 |BMA423|DS3231|Battery ADC|   UART   |  Buttons  |
-| ------------- | :---------: | :--: |:----:| :-------: |   :-:    |    :-:    |    
-| GPIO 1        |             |      |      |           |    TX    |           |
-| GPIO 3        |             |      |      |           |    RX    |           |
-| GPIO 4        |             |      |      |           |          |  Button 4 |
-| GPIO 5        |     CS      |      |      |           |          |           |
-| GPIO 9        |     RES     |      |      |           |          |           |
-| GPIO 10       |     DC      |      |      |           |          |           |
-| GPIO 12       |             | INT2 |      |           |          |           |
-| GPIO 13       |             |      |      |           |          |           |
-| GPIO 14       |             | INT1 |      |           |          |           |
-| GPIO 18       |    SCLK     |      |      |           |          |           |
-| GPIO 19       |    BUSY     |      |      |           |          |           |
-| GPIO 21       |             | SDA  |  SDA |           |          |           |
-| GPIO 22       |             | SCL  |  SCL |           |          |           |
-| GPIO 23       |    MOSI     |      |      |           |          |           |
-| GPIO 25       |             |      |      |           |          |  Button 2 |
-| GPIO 26       |             |      |      |           |          |  Button 1 |
-| GPIO 27       |             |      | INT  |           |          |           |
-| GPIO 32       |             |      |      |           |          |  Button 3 |
-| GPIO 33       |             |      |      |    ADC    |          |           |
+| ESP32-PICO-D4 | DISPLAY |BMA423|DS3231/PCF8563| ADC  |   UART   |  Buttons  |
+| ------------- | :-----: | :--: |:------------:| :---:|   :-:    |    :-:    |    
+| GPIO 1        |         |      |              |      |    TX    |           |
+| GPIO 3        |         |      |              |      |    RX    |           |
+| GPIO 4        |         |      |              |      |          |  BTN 4 |
+| GPIO 5        |   CS    |      |              |      |          |           |
+| GPIO 9        |   RES   |      |              |      |          |           |
+| GPIO 10       |   DC    |      |              |      |          |           |
+| GPIO 12       |         | INT2 |              |      |          |           |
+| GPIO 13       |         |      |              |      |          |           |
+| GPIO 14       |         | INT1 |              |      |          |           |
+| GPIO 18       |  SCLK   |      |              |      |          |           |
+| GPIO 19       |  BUSY   |      |              |      |          |           |
+| GPIO 21       |         | SDA  |    SDA       |      |          |           |
+| GPIO 22       |         | SCL  |    SCL       |      |          |           |
+| GPIO 23       |  MOSI   |      |              |      |          |           |
+| GPIO 25       |         |      |              |      |          |  BTN 2 |
+| GPIO 26       |         |      |              |      |          |  BTN 1 |
+| GPIO 27       |         |      |    INT       |      |          |           |
+| GPIO 32       |         |      |              |      |          |  BTN 3 (v1.0/1.5) |
+| GPIO 33       |         |      |              | v1.0 |          |           |
+| GPIO 34       |         |      |              | v2.0 |          |           |
+| GPIO 35       |         |      |              | v1.5 |          |  BTN 3 (v2.0) |
 
 ---
 
@@ -57,7 +61,8 @@ slug: /hardware
 * E-Paper Display [GDEH0154D67](https://www.e-paper-display.com/products_detail/productId=455.html)
 * Display Connector [AFC07-S24ECC-00](https://datasheet.lcsc.com/szlcsc/1811021340_JUSHUO-AFC07-S24ECC-00_C11092.pdf)
 * 3-Axis Accelerometer [BMA423](../static/pdf/BST-BMA423-DS000-1509600.pdf)
-* Real Time Clock [DS3231](https://datasheets.maximintegrated.com/en/ds/DS3231.pdf)
+* Real Time Clock v1.0 [DS3231](https://datasheets.maximintegrated.com/en/ds/DS3231.pdf)
+* Real Time Clock v1.5/2.0 [PCF8563](https://www.mouser.com/datasheet/2/302/PCF8563-1127619.pdf)
 * Battery [LiPo Battery 3.7V 200mAh 402030](https://www.powerstream.com/lip/GMB042030.pdf)
 * LDO Voltage Regulator [ME6211C33M5G-N](https://datasheet.lcsc.com/szlcsc/Nanjing-Micro-One-Elec-ME6211C33M5G-N_C82942.pdf)
 * Battery Connector [BOOMELE 1.25T-2PWT](https://datasheet.lcsc.com/szlcsc/1811092210_BOOMELE-Boom-Precision-Elec-1-25T-2PWT_C22074.pdf)

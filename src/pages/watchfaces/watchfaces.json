@@ -473,7 +473,7 @@
         "author" : "GuruSR",
         "screenshot" : "https://github.com/GuruSR/Watchy_GSR/blob/main/Images/Watchy_GSR.gif?raw=true",
         "source" : "https://github.com/GuruSR/Watchy_GSR",
-        "ota_bin" : true,
+        "ota_bin" : false,
         "version" : "1.4.3"
     }
 ]
