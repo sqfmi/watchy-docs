@@ -66,7 +66,7 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
     ```
     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
     ```
-4. Open **Boards Manager** under Tools > Board menu and install the *esp32* platform
+4. Open **Boards Manager** under Tools > Board menu and install the *esp32* platform (Note: there is a bug in 2.0.3, please use 2.0.2 until it is fixed)
 5. Under Sketch > Include Library > Manage Libraries, search for **Watchy** and install the latest version
 6. Make sure all the dependencies are updated to the latest version i.e. **GxEPD2** , **WiFiManager**, **etc.**
 
@@ -75,8 +75,7 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
 1. Plug in the USB on Watchy and select the serial port that shows up
 2. If nothing shows up, or if you're having trouble uploading, make sure you have the <ins>[USB-Serial drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)</ins> installed.
 2. Select **ESP32 Dev Module** under Tools > Board > ESP32 Arduino
-3. Select **Minimal SPIFFS** under Tools > Partition Scheme  
-    Note: there are two options called **Minimal**, make sure you pick the one with **SPIFFS** in the name
+3. Select **Huge App** under Tools > Partition Scheme
 4. Leave everything else as default
 6. Choose an example and hit upload
 7. Try modifiying the examples or create your own app!
@@ -107,7 +106,7 @@ pio project init --board esp32dev
 - Add the following to the `platformio.ini` file. Note that if you want to use another version of the Watchy library, you can put any file or git path here.
 ```ini
 lib_deps =
-    sqfmi/Watchy @ 1.3.3 ; Pinned version to ensure we don't pull broken code
+    sqfmi/Watchy @ 1.4.1 ; Pinned version to ensure we don't pull broken code
     https://github.com/tzapu/WiFiManager.git#2.0.3-alpha ; Pinned for the same reason
 lib_ldf_mode = deep+
 board_build.partitions = min_spiffs.csv
