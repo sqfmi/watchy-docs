@@ -475,5 +475,14 @@
         "source" : "https://github.com/GuruSR/Watchy_GSR",
         "ota_bin" : false,
         "version" : "1.4.3"
+    },
+    {
+        "id" : "53",
+        "name" : "Keen",
+        "author" : "Synthead",
+        "screenshot" : "https://raw.githubusercontent.com/synthead/watchy-keen/master/graphics/examples/level-12.png",
+        "source" : "https://github.com/synthead/watchy-keen",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
