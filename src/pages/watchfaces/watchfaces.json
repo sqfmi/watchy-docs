@@ -480,7 +480,7 @@
         "id" : "53",
         "name" : "Keen",
         "author" : "Synthead",
-        "screenshot" : "https://raw.githubusercontent.com/synthead/watchy-keen/master/graphics/examples/level-18.png",
+        "screenshot" : "https://raw.githubusercontent.com/synthead/watchy-keen/master/graphics/examples/all.gif",
         "source" : "https://github.com/synthead/watchy-keen",
         "ota_bin" : false,
         "version" : "1.0.0"
