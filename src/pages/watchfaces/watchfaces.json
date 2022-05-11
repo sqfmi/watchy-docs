@@ -309,7 +309,7 @@
         "id" : "34",
         "name" : "X marks the spot",
         "author" : "c2c2",
-        "screenshot" : "https://github.com/theRealc2c2/x-marks-the-spot/blob/main/x.gif?raw=true",
+        "screenshot" : "https://raw.githubusercontent.com/theRealc2c2/x-marks-the-spot/main/x.gif",
         "source" : "https://github.com/theRealc2c2/x-marks-the-spot",
         "ota_bin" : false,
         "version" : "1.0.0"
