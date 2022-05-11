@@ -79,7 +79,7 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
 6. Choose an example and hit upload
 7. Try modifiying the examples or create your own app!
 
-**Note**: Arduino IDE will not show files outside of the watchface, but will push the Watchy library when you hit upload as well. If you want to change something other than the watchface, consider using a [manual installation](https://www.arduino.cc/en/guide/libraries#toc5) of the Watchy library instead of using the Library Manager and making your changes in there.
+**Note**: Arduino IDE will not show files outside of the watchface, but will push the Watchy library when you hit upload as well. If you want to change something other than the watchface, consider using a [manual installation](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries#manual-installation) of the Watchy library instead of using the Library Manager and making your changes in there.
 
 ---
 
