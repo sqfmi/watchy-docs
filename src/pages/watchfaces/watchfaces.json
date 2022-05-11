@@ -103,7 +103,7 @@
         "name" : "Jarvis",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/11_Jarvis.gif",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -130,7 +130,7 @@
         "name" : "BTTF",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/14_BTTF.png",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -157,7 +157,7 @@
         "name" : "Steps",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/17_Steps.png",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -184,7 +184,7 @@
         "name" : "Analog",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/20_Analog.png",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -202,7 +202,7 @@
         "name" : "BCD",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/22_BCD.png",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -229,7 +229,7 @@
         "name" : "LCARS",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/25_LCARS.png",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
