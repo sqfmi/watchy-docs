@@ -119,7 +119,6 @@ board_build.partitions = min_spiffs.csv
 + platform = espressif32 @ ~3.5.0
 ```
 
-
 - Run PlatformIO, it will download dependencies such as the Watchy library, but then fail to compile because there aren't any source files in `src/` yet. So when the dependencies are downloaded, copy the `7_SEG` example files to `src/`.
 ```bash
 pio run # will fail compilation but will download dependencies
