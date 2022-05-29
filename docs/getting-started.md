@@ -107,7 +107,7 @@ pio project init --board esp32dev
 ```ini
 lib_deps =
     sqfmi/Watchy @ 1.4.1 ; Pinned version to ensure we don't pull broken code
-    https://github.com/tzapu/WiFiManager.git#2.0.3-alpha ; Pinned for the same reason
+    https://github.com/tzapu/WiFiManager.git#v2.0.11-beta ; Pinned for the same reason
 lib_ldf_mode = deep+
 board_build.partitions = min_spiffs.csv
 ```
