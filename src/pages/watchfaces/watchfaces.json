@@ -308,8 +308,8 @@
     {
         "id" : "34",
         "name" : "X marks the spot",
-        "author" : "c2c2",
-        "screenshot" : "https://github.com/cbrookins/x-marks-the-spot/blob/main/x.gif?raw=true",
+        "author" : "cbrookins",
+        "screenshot" : "https://raw.githubusercontent.com/cbrookins/x-marks-the-spot/main/x.gif",
         "source" : "https://github.com/cbrookins/x-marks-the-spot",
         "ota_bin" : false,
         "version" : "1.0.0"
