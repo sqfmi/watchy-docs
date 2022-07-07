@@ -103,7 +103,7 @@
         "name" : "Jarvis",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/11_Jarvis.gif",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -130,7 +130,7 @@
         "name" : "BTTF",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/14_BTTF.png",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -157,7 +157,7 @@
         "name" : "Steps",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/17_Steps.png",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -184,7 +184,7 @@
         "name" : "Analog",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/20_Analog.png",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -202,7 +202,7 @@
         "name" : "BCD",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/22_BCD.png",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -229,7 +229,7 @@
         "name" : "LCARS",
         "author" : "peerdavid",
         "screenshot" : "/img/watchfaces/25_LCARS.png",
-        "source" : "https://github.com/peerdavid/Watchy/tree/master/examples/WatchFaces/David",
+        "source" : "https://github.com/peerdavid/wos",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -300,17 +300,17 @@
         "id" : "33",
         "name" : "SmartWatchy",
         "author" : "c2c2",
-        "screenshot" : "https://github.com/theRealc2c2/SmartWatch/blob/main/SmartWatch.gif?raw=true",
-        "source" : "https://github.com/theRealc2c2/SmartWatch",
+        "screenshot" : "https://github.com/cbrookins/SmartWatch/blob/main/SmartWatch.gif?raw=true",
+        "source" : "https://github.com/cbrookins/SmartWatch",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
     {
         "id" : "34",
         "name" : "X marks the spot",
-        "author" : "c2c2",
-        "screenshot" : "https://github.com/theRealc2c2/x-marks-the-spot/blob/main/x.gif?raw=true",
-        "source" : "https://github.com/theRealc2c2/x-marks-the-spot",
+        "author" : "cbrookins",
+        "screenshot" : "https://raw.githubusercontent.com/cbrookins/x-marks-the-spot/main/x.gif",
+        "source" : "https://github.com/cbrookins/x-marks-the-spot",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -343,10 +343,10 @@
     },
     {
         "id" : "38",
-        "name" : "watchy_fbsd",
+        "name" : "beastie",
         "author" : "charlesrocket",
-        "screenshot" : "https://raw.githubusercontent.com/charlesrocket/watchy_fbsd/master/doc/screenshot.gif",
-        "source" : "https://github.com/charlesrocket/watchy_fbsd",
+        "screenshot" : "https://raw.githubusercontent.com/charlesrocket/beastie/master/doc/screenshot.gif",
+        "source" : "https://github.com/charlesrocket/beastie",
         "ota_bin" : false,
         "version" : "1.0.0"
     },
@@ -376,5 +376,122 @@
         "source" : "https://github.com/t26y/Watchy-Screen-Chronometer",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }  
+    },
+    {
+        "id" : "42",
+        "name" : "Watchy PowerShell",
+        "author" : "Lee Holmes",
+        "screenshot" : "https://github.com/LeeHolmes/watchy_powershell/blob/main/example.gif?raw=true",
+        "source" : "https://github.com/LeeHolmes/watchy_powershell",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "43",
+        "name" : "Tetris 2.0",
+        "author" : "Klemek",
+        "screenshot" : "https://raw.githubusercontent.com/Klemek/watchy/master/watchfaces/tetris-2.0/preview.bmp?raw=true",
+        "source" : "https://github.com/Klemek/watchy/tree/master/watchfaces/tetris-2.0",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "44",
+        "name" : "Pokemon 2.0",
+        "author" : "Klemek",
+        "screenshot" : "https://raw.githubusercontent.com/Klemek/watchy/master/watchfaces/pokemon-2.0/preview.bmp?raw=true",
+        "source" : "https://github.com/Klemek/watchy/tree/master/watchfaces/pokemon-2.0",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "45",
+        "name" : "QLock",
+        "author" : "vtu-dog",
+        "screenshot" : "https://raw.githubusercontent.com/vtu-dog/qlock/master/images/face.bmp",
+        "source" : "https://github.com/vtu-dog/qlock",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "46",
+        "name" : "Triangle",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/Triangle_Watchy/main/watchface.gif",
+        "source" : "https://github.com/My-Key/Triangle_Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "47",
+        "name" : "Castle of Watchy",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/Castle_of_Watchy/main/Watchface.gif",
+        "source" : "https://github.com/My-Key/Castle_of_Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "48",
+        "name" : "Kave Watchy",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/Kave_Watchy/main/Watchface.gif",
+        "source" : "https://github.com/My-Key/Kave_Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "49",
+        "name" : "Slacker",
+        "author" : "uCBill",
+        "screenshot" : "https://raw.githubusercontent.com/uCBill/Slacker/main/Slacker.gif",
+        "source" : "https://github.com/uCBill/Slacker",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "50",
+        "name" : "Sundial",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/WatchySundial/main/watchface.gif",
+        "source" : "https://github.com/My-Key/WatchySundial",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "51",
+        "name" : "The Blob",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/TheBlob/main/watchface.gif",
+        "source" : "https://github.com/My-Key/TheBlob",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "52",
+        "name" : "Watchy GSR",
+        "author" : "GuruSR",
+        "screenshot" : "https://github.com/GuruSR/Watchy_GSR/blob/main/Images/Watchy_GSR.gif?raw=true",
+        "source" : "https://github.com/GuruSR/Watchy_GSR",
+        "ota_bin" : false,
+        "version" : "1.4.3"
+    },
+    {
+        "id" : "53",
+        "name" : "Keen",
+        "author" : "Synthead",
+        "screenshot" : "https://raw.githubusercontent.com/synthead/watchy-keen/master/graphics/screenshots/all.gif",
+        "source" : "https://github.com/synthead/watchy-keen",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "54",
+        "name" : "erika Type",
+        "author" : "mrmcwethy",
+        "screenshot" : "https://raw.githubusercontent.com/mrmcwethy/watchy_Erika_Type/main/images/erikaType.bmp",
+        "source" : "https://github.com/mrmcwethy/watchy_Erika_Type",
+        "ota_bin" : false,
+        "version" : "1.4.3"
+    }
 ]

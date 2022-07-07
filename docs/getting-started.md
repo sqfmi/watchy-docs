@@ -12,7 +12,9 @@ slug: /getting-started
 
 **Remove The Components Carefully** as they are tightly packed for maximum protection. The display is made of glass and will crack if you bend it!
 
-**Test Your PCB** to make sure the board is functional before taping everything down! The tape is very strong and it will be impossible to re-align/remove anything once secured.
+**Test Your PCB** to make sure the board is functional!
+
+**Do Not Apply The Included Tape!!** Watchy can be assembled and secured with the included enclosure, without needing any tape. Only apply the tape if you intend to use Watchy without the enclosure, and have triple checked the screen is properly aligned.
 
 1. Connect the screen to the FPC connector, the shiny gold pins on the ribbon cable should be facing up. The ribbon cable goes through the PCB slot like in the image above.
 2. Connect the battery
@@ -27,12 +29,12 @@ slug: /getting-started
 
 **Tips**
 
-- **Make sure the screen is perfectly aligned when taping it down!** It should not extend above or below the strap holes on the PCB.
+- **Make sure the screen is perfectly aligned before taping it down!** It should not extend above or below the strap holes on the PCB.
 
 ![Watchy Screen Alignment](../static/img/watchy_screen_align.png)
 
-- **Apply the screen protector AFTER assembling it in the case and note the orientation.** This will prevent misaligned screen and case
-- **Do NOT force the case to close. It could break the buttons!** The case should close easily with a light snap. It's easier to anchor the top snap first, then close down to the bottom snap.
+- **Make sure the battery cable is tucked in** Everything should fit snug and be aligned to the bottom case, before securing the top case.
+- **Do NOT force the case to close. It could break the screen & buttons!** The case should close easily with the top and bottom snaps latching.
 - **Do NOT overtighten the screws in the aluminum case** Overtightening will crack the screen! Make sure everything fits nicely and slowly adjust the screws to secure the case.
 - **Still having trouble?** Check out this step-by-step guide on assembling the case in our [FAQ](/docs/faqs#the-case-doesnt-fitclose-how-do-i-assemble-it)
 
@@ -45,11 +47,11 @@ Assembly Video (CNC Aluminum Case): https://www.youtube.com/watch?v=rbVr9eVb72M
 
 1. Apply tape to the **back** of the E-Paper display and battery. The **front of the display is white** and the **back of the display is metallic/silver**
 2. Pull lightly to unlock the FFC connector, insert the display cable through the strap hole. Make sure the cable is inserted all the way, then push the lock back in to secure the cable. 
-3. Fold back and align the display to the top of the PCB, peel off tape and firmly secure the display
-4. Insert battery plug, ensure correct polarity (red is closer to the USB connector)
-5. Peel off tape and firmly secure battery to the PCB
-6. Insert watch strap through PCB strap holes, then tighten strap from both ends
-7. Wrap strap around arm and adjust for comfort
+3. Fold back and align the display to the top of the PCB, peel off the tape and firmly secure the display
+4. Insert the battery plug, ensure correct polarity (red is closer to the USB connector)
+5. Peel off the tape and firmly secure the battery to the PCB
+6. Insert the watch strap through the PCB strap holes, then tighten the strap from both ends
+7. Wrap the strap around your arm and adjust for comfort
 
 Assembly video: https://www.youtube.com/watch?v=PCPxTS1aF3w
 
@@ -64,17 +66,16 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
     ```
     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
     ```
-4. Open **Boards Manager** under Tools > Board menu and install the *esp32* platform
+4. Open **Boards Manager** under Tools > Board menu and install the *esp32* platform (Note: there is a bug in 2.0.3, please use 2.0.2 until it is fixed)
 5. Under Sketch > Include Library > Manage Libraries, search for **Watchy** and install the latest version
 6. Make sure all the dependencies are updated to the latest version i.e. **GxEPD2** , **WiFiManager**, **etc.**
 
 ### Upload
 
-1. Plug in USB on Watchy and select the serial port that shows up
+1. Plug in the USB on Watchy and select the serial port that shows up
 2. If nothing shows up, or if you're having trouble uploading, make sure you have the <ins>[USB-Serial drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)</ins> installed.
 2. Select **ESP32 Dev Module** under Tools > Board > ESP32 Arduino
-3. Select **Minimal SPIFFS** under Tools > Partition Scheme  
-    Note: there are two options called **Minimal**, make sure you pick the one with **SPIFFS** in the name
+3. Select **Huge App** under Tools > Partition Scheme
 4. Leave everything else as default
 6. Choose an example and hit upload
 7. Try modifiying the examples or create your own app!
@@ -83,7 +84,7 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
 
 ## PlatformIO Setup
 
-[PlatformIO](https://platformio.org/) is a compatible alternative to arduino. It is more oriented for the command line user, but it also is more flexible and predictable in build configurations and dependency management (like libraries).
+[PlatformIO](https://platformio.org/) is a compatible alternative to arduino. It's more oriented for the command line user, but it is also more flexible and predictable in build configurations and dependency management (like libraries).
 
 It has two parts: a "core" that has the command line tools that build and upload/flash, and an "ide" which is a bunch of plugins and extensions for editors you can [find here](https://platformio.org/install/integration).
 
@@ -93,7 +94,7 @@ Use whichever extensions you wish but this documentation is related to the core,
 
 ### Simple watchface example
 
-This is example is to create a new watch face project, it starts by copying one of the examples to the `src/` folder where you can make your own. However it will not make it easy to edit the watchy library, or its `config.h` file, which many want to, for that see the section below.
+This example is to create a new watch face project, it starts by copying one of the examples to the `src/` folder where you can make your own. However, it will not make it easy to edit the watchy library, or its `config.h` file, which many want to, for that see the section below.
 
 - Create a new folder and setup the PlatformIO project layout
 ```bash
@@ -105,9 +106,17 @@ pio project init --board esp32dev
 - Add the following to the `platformio.ini` file. Note that if you want to use another version of the Watchy library, you can put any file or git path here.
 ```ini
 lib_deps =
-    https://github.com/sqfmi/Watchy
+    sqfmi/Watchy @ 1.4.1 ; Pinned version to ensure we don't pull broken code
+    https://github.com/tzapu/WiFiManager.git#v2.0.11-beta ; Pinned for the same reason
 lib_ldf_mode = deep+
 board_build.partitions = min_spiffs.csv
+```
+
+- Also pin the version of platform `espressif32` to ensure compatibility.
+```diff
+  [env:esp32dev]
+- platform = espressif32
++ platform = espressif32 @ ~3.5.0
 ```
 
 - Run PlatformIO, it will download dependencies such as the Watchy library, but then fail to compile because there aren't any source files in `src/` yet. So when the dependencies are downloaded, copy the `7_SEG` example files to `src/`.
