@@ -493,5 +493,23 @@
         "source" : "https://github.com/mrmcwethy/watchy_Erika_Type",
         "ota_bin" : false,
         "version" : "1.4.3"
+    },
+    {
+        "id" : "55",
+        "name" : "Shadow Clock",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/ShadowClock/main/watchface.gif",
+        "source" : "https://github.com/My-Key/ShadowClock",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
+        "id" : "56",
+        "name" : "Dali",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/Dali/main/watchface.gif",
+        "source" : "https://github.com/My-Key/Dali",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
