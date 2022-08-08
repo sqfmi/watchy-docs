@@ -511,5 +511,14 @@
         "source" : "https://github.com/My-Key/Dali",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "57",
+        "name" : "Brainwork",
+        "author" : "Brain in a Bowl",
+        "screenshot" : "https://github.com/BraininaBowl/Brainwork-for-Watchy/raw/main/Brainwork.gif",
+        "source" : "https://github.com/BraininaBowl/Brainwork-for-Watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
