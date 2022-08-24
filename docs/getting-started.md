@@ -104,6 +104,13 @@ pio project init --board esp32dev
 ```
 
 - Add the following to the `platformio.ini` file. Note that if you want to use another version of the Watchy library, you can put any file or git path here.
+
+:::caution
+
+Some users have reported problems with one of the supported RTC modules: The module `PCF8563` seems to be supported during first boots, but their library is overriden by PlatformIO using a broken version - so you need to add an other repository (`https://github.com/orbitalair/Rtc_Pcf8563.git`) to prevent that.
+
+:::
+
 ```ini
 lib_deps =
     sqfmi/Watchy @ 1.4.1 ; Pinned version to ensure we don't pull broken code
