@@ -66,19 +66,20 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
     ```
     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
     ```
-4. Open **Boards Manager** under Tools > Board menu and install the *esp32* platform (Note: there is a bug in 2.0.3, please use 2.0.2 until it is fixed)
+4. Open **Boards Manager** under Tools > Board menu and install the latest version of *esp32* platform
 5. Under Sketch > Include Library > Manage Libraries, search for **Watchy** and install the latest version
-6. Make sure all the dependencies are updated to the latest version i.e. **GxEPD2** , **WiFiManager**, **etc.**
+6. Make sure all the dependencies are updated to the latest version i.e. **GxEPD2** , **WiFiManager**, **rtc_pcf8563**,**etc.**
 
 ### Upload
 
 1. Plug in the USB on Watchy and select the serial port that shows up
-2. If nothing shows up, or if you're having trouble uploading, make sure you have the <ins>[USB-Serial drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)</ins> installed.
-2. Select **ESP32 Dev Module** under Tools > Board > ESP32 Arduino
-3. Select **Huge App** under Tools > Partition Scheme
-4. Leave everything else as default
-6. Choose an example and hit upload
-7. Try modifiying the examples or create your own app!
+2. If nothing shows up, or if you're having trouble uploading, make sure you have the <ins>[USB-Serial drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)</ins> installed. Also make sure you're using a USB data cable, and not a charge-only cable. Try different USB ports as well.
+3. Select Tools > Board > ESP32 Arduino > **Watchy**
+4. Select Tools > Board Revision > **Watchy v2.0**
+5. Select Tools > Partition Scheme > **Huge App**
+6. Leave everything else as default
+7. Choose an example and click upload
+8. Try modifiying the examples or create your own app!
 
 ---
 
