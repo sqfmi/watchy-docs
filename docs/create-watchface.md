@@ -72,6 +72,17 @@ You can use custom fonts by converting them first with the tool <ins>[**truetype
 
 3. Use ```display.setFont(&Seven_Segment10pt7b)``` to set the current font face (don't forget the ampersand before the font name). You will have to call the ```display.setFont()``` method each time you wish to use another font. Use ```display.setCursor(x, y)``` to set where to start printing text, the coordinates refer to the *lower left corner* of the text to be printed.
 
+### Quickly Testing Changes
+
+As you develop more complicated watch faces, the repeated process of making a change, compiling it, and uploading it to your Watchy can be cumbersome. It is also challenging to double-check that your watch face can handle all possible conditions (such as weather conditions and step counts) when all your physical Watchy has is real life to report on!
+
+<img src="https://user-images.githubusercontent.com/11475352/136731005-9394fdf6-fd35-4e0f-8e49-5a4b9101c643.png" width="40%" />
+
+For these reasons, the community has developed _WatchySim_ - a simulator for Watchy. WatchySim gives you a Watchy-like SDK to develop your watch faces, but lets you test them in a standard Windows GDI-based application.
+
+If you are interested in exploring that approach, check out [WatchySim on GitHub](https://github.com/LeeHolmes/watchysim).
+
+
 ### Share Your Watch Face!
 
 We'd love to see what you've created! Share your watch face with us and we'll post it on our gallery:
