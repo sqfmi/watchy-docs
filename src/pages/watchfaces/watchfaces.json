@@ -529,5 +529,14 @@
         "source" : "https://github.com/My-Key/MetaBallWatchy",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "59",
+        "name" : "Star Wars Aurebesh",
+        "author" : "aminch",
+        "screenshot" : "https://github.com/aminch/Star_Wars_Aurebesh/raw/main/star_wars_aurebesh.gif",
+        "source" : "https://github.com/aminch/Star_Wars_Aurebesh",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
