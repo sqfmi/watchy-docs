@@ -86,6 +86,6 @@ Check out these instructions [here](/docs/create-watchface#share-your-watch-face
 
 ### I need a replacement screen/strap/case, where can I get one?
 
-You may purchase replcaement parts and accessories at https://shop.sqfmi.com
+You may purchase replacement parts and accessories at https://shop.sqfmi.com
 
 For screens, you may also get them on https://www.aliexpress.com/item/33044560386.html

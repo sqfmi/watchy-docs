@@ -79,7 +79,7 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
 5. Select Tools > Partition Scheme > **Huge App**
 6. Leave everything else as default
 7. Choose an example and click upload
-8. Try modifiying the examples or create your own app!
+8. Try modifying the examples or create your own app!
 
 ### Wifi Setup
 
@@ -123,7 +123,7 @@ pio project init --board esp32dev
 
 :::caution
 
-Some users have reported problems with one of the supported RTC modules: The module `PCF8563` seems to be supported during first boots, but their library is overriden by PlatformIO using a broken version - so you need to add an other repository (`https://github.com/orbitalair/Rtc_Pcf8563.git`) to prevent that.
+Some users have reported problems with one of the supported RTC modules: The module `PCF8563` seems to be supported during first boots, but their library is overridden by PlatformIO using a broken version - so you need to add an other repository (`https://github.com/orbitalair/Rtc_Pcf8563.git`) to prevent that.
 
 :::
 
