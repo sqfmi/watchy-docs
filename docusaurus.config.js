@@ -51,7 +51,7 @@ module.exports = {
         // },                                   
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://www.mouser.com/manufacturer/sqfmi/',
+          href: 'https://mou.sr/3WQWSXT',
           label: 'Buy Watchy!',
           position: 'right',
         },
@@ -110,6 +110,10 @@ module.exports = {
               label: 'SQFMI Shop',
               href: 'https://shop.sqfmi.com',
             },
+            {
+              label: 'The Pi Hut',
+              href: 'https://thepihut.com/collections/sqfmi',
+            },            
             {
               label: 'Mouser',
               href: 'https://www.mouser.com/manufacturer/sqfmi/',        

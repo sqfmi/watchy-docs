@@ -129,7 +129,7 @@ Some users have reported problems with one of the supported RTC modules: The mod
 
 ```ini
 lib_deps =
-    sqfmi/Watchy @ 1.4.6 ; Insure you are on the most recent version: https://registry.platformio.org/libraries/sqfmi/Watchy
+    sqfmi/Watchy ;
     https://github.com/tzapu/WiFiManager.git#v2.0.11-beta ; Pinned for the same reason
 lib_ldf_mode = deep+
 board_build.partitions = min_spiffs.csv
