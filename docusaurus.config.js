@@ -51,7 +51,7 @@ module.exports = {
         // },                                   
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://mou.sr/3WQWSXT',
+          to: 'https://mou.sr/3WQWSXT',
           label: 'Buy Watchy!',
           position: 'right',
         },
@@ -73,7 +73,7 @@ module.exports = {
             // },
             {
               label: 'GitHub',
-              href: 'https://github.com/sqfmi/',
+              to: 'https://github.com/sqfmi/',
             },                        
           ],
         },
@@ -91,15 +91,15 @@ module.exports = {
           items: [
             {
               label: 'Twitter',
-              href: 'https://twitter.com/sqfmi',
+              to: 'https://twitter.com/sqfmi',
             },
             {
               label: 'Instagram',
-              href: 'https://www.instagram.com/sqfmi',
+              to: 'https://www.instagram.com/sqfmi',
             },
             {
               label: 'YouTube',
-              href: 'https://www.youtube.com/channel/UC9SAc8ikvU7KuYw3OfogFFA',
+              to: 'https://www.youtube.com/channel/UC9SAc8ikvU7KuYw3OfogFFA',
             },
           ],
         },
@@ -108,28 +108,25 @@ module.exports = {
           items: [
             {
               label: 'SQFMI Shop',
-              href: 'https://shop.sqfmi.com',
+              to: 'https://shop.sqfmi.com',
             },
             {
               label: 'The Pi Hut',
-              href: 'https://thepihut.com/collections/sqfmi',
+              to: 'https://thepihut.com/collections/sqfmi',
             },            
             {
               label: 'Mouser',
-              href: 'https://www.mouser.com/manufacturer/sqfmi/',        
+              to: 'https://www.mouser.com/manufacturer/sqfmi/',        
             },
             {
               label: 'Crowd Supply',
-              href: 'https://www.crowdsupply.com/sqfmi/watchy',        
+              to: 'https://www.crowdsupply.com/sqfmi/watchy',        
             },
           ],
         },        
       ],
       copyright: `Copyright © ${new Date().getFullYear()} <a class="footer__link-item" href="https://www.sqfmi.com"> Squarofumi</a>. Built with Docusaurus.`,
-    },
-    gtag: {
-      trackingID: 'G-MN55F60K14',
-    },      
+    },    
   },
   presets: [
     [
@@ -150,6 +147,9 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-MN55F60K14',
+        }
       },
     ],
   ],
