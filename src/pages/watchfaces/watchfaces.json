@@ -538,5 +538,14 @@
         "source" : "https://github.com/aminch/Star_Wars_Aurebesh",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "60",
+        "name" : "Shijian",
+        "author" : "Remunerator",
+        "screenshot" : "https://raw.githubusercontent.com/Remunerator/Watchy-Shijian/main/screenshot/Shijian.gif",
+        "source" : "https://github.com/Remunerator/Watchy-Shijian",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
