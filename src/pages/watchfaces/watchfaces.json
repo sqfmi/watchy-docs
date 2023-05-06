@@ -547,5 +547,14 @@
         "source" : "https://github.com/Remunerator/Watchy-Shijian",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "62",
+        "name" : "Last Laugh",
+        "author" : "Vojtech Bizek",
+        "screenshot" : "https://github.com/Vojtech-Bizek/Last-Laugh-Watchy-main/blob/main/Last-Laugh/Screenshot.gif?raw=true",
+        "source" : "https://github.com/Vojtech-Bizek/Last-Laugh-Watchy-main.git",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
