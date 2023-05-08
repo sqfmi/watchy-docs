@@ -547,5 +547,14 @@
         "source" : "https://github.com/Remunerator/Watchy-Shijian",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "61",
+        "name" : "Spiral Watchy",
+        "author" : "Nosorożec Kaszle",
+        "screenshot" : "https://raw.githubusercontent.com/My-Key/SpiralWatchy/main/watchface.gif",
+        "source" : "https://github.com/My-Key/SpiralWatchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
