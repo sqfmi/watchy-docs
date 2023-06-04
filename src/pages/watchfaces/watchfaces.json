@@ -566,5 +566,15 @@
         "source" : "https://github.com/Vojtech-Bizek/Last-Laugh-Watchy-main.git",
         "ota_bin" : false,
         "version" : "1.0.0"        
-    }
+    },
+    {
+
+        "id" : "63",
+        "name" : "Captn Wednesday",
+        "author" : "Bayport",
+        "screenshot" : "https://raw.githubusercontent.com/b-bayport/watchy_captnwednesday/main/img/CaptnWednesday.png",
+        "source" : "https://github.com/b-bayport/watchy_captnwednesday",
+        "ota_bin" : false,
+        "version" : "1.4.6"        
+    }    
 ]
