@@ -38,9 +38,9 @@ slug: /getting-started
 - **Do NOT overtighten the screws in the aluminum case** Overtightening will crack the screen! Make sure everything fits nicely and slowly adjust the screws to secure the case.
 - **Still having trouble?** Check out this step-by-step guide on assembling the case in our [FAQ](/docs/faqs#the-case-doesnt-fitclose-how-do-i-assemble-it)
 
-Assembly Video: https://www.youtube.com/watch?v=ftLTrr_HTpI
+Assembly Video: [https://www.youtube.com/watch?v=ftLTrr_HTpI](https://www.youtube.com/watch?v=ftLTrr_HTpI)
 
-Assembly Video (CNC Aluminum Case): https://www.youtube.com/watch?v=rbVr9eVb72M
+Assembly Video (CNC Aluminum Case): [https://www.youtube.com/watch?v=rbVr9eVb72M](https://www.youtube.com/watch?v=rbVr9eVb72M)
 
 ## Watchy Original Assembly
 ![Watchy OG Assembly](../static/img/watchy_assembly_steps.png)
@@ -60,13 +60,13 @@ Assembly video: https://www.youtube.com/watch?v=PCPxTS1aF3w
 Watchy comes pre-loaded with firmware that demonstrates all the basic features. You can also try different watch faces and examples in Arduino.
 
 1. Download and install the latest <ins>[Arduino IDE](https://www.arduino.cc/en/software)</ins>
-2. Start Arduino and open the *Preferences* window.
+2. Start Arduino and open File > Preferences.
 3. Under *Additional Board Manager URLs* add:
 
     ```
     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
     ```
-4. Open **Boards Manager** under Tools > Board menu and install the latest version of *esp32* platform
+4. Open Tools > Board > **Boards Manager** and install the latest version of *esp32* platform
 5. Under Sketch > Include Library > Manage Libraries, search for **Watchy** and install the latest version
 6. Make sure all the dependencies are updated to the latest version i.e. **GxEPD2** , **WiFiManager**, **rtc_pcf8563**,**etc.**
 
