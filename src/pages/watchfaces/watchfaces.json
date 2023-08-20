@@ -586,5 +586,14 @@
         "source" : "https://github.com/lazlow3/CalculatorWatchy",
         "ota_bin" : false,
         "version" : "1.4.6"        
-    }    
+    },
+    {
+        "id" : "65",
+        "name" : "Watchy Akira",
+        "author" : "Tito Botelho",
+        "screenshot" : "https://github.com/TitoBotelho/WatchyAkira/blob/main/screenshot/WatchyAkira.gif",
+        "source" : "https://github.com/TitoBotelho/WatchyAkira",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }   
 ]
