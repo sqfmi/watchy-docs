@@ -582,7 +582,7 @@
         "id" : "64",
         "name" : "Calculator Watchy",
         "author" : "Lazlow3",
-        "screenshot" : "https://github.com/lazlow3/CalculatorWatchy/blob/main/img/CalculatorWatchy.gif",
+        "screenshot" : "https://github.com/lazlow3/CalculatorWatchy/blob/main/img/CalculatorWatchy.gif?raw=true",
         "source" : "https://github.com/lazlow3/CalculatorWatchy",
         "ota_bin" : false,
         "version" : "1.4.6"        
