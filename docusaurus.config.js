@@ -12,6 +12,7 @@ module.exports = {
     'https://www.instagram.com/embed.js'
   ],
   themeConfig: {
+    image: 'img/watchy_social_card.png',
     navbar: {
       title: 'Watchy',
       logo: {
