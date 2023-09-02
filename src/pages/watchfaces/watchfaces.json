@@ -604,5 +604,14 @@
         "source" : "https://github.com/sqfmi/watchy-pipboy",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "67",
+        "name" : "Multi_face_Watchy",
+        "author" : "uCBill",
+        "screenshot" : "https://github.com/uCBill/Multi_face_Watchy/blob/main/Multi_face_Watchy.gif",
+        "source" : "https://github.com/uCBill/Multi_face_Watchy",
+        "ota_bin" : false,
+        "version" : "1.4.0"
     }
 ]
