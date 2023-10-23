@@ -604,5 +604,14 @@
         "source" : "https://github.com/sqfmi/watchy-pipboy",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "69",
+        "name" : "QR Watchface",
+        "author" : "Cqoicebordel",
+        "screenshot" : "https://raw.githubusercontent.com/Cqoicebordel/Watchfaces/main/QR_Watchface/qr_watchface_screen.png",
+        "source" : "https://github.com/Cqoicebordel/Watchfaces/tree/main/QR_Watchface",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
