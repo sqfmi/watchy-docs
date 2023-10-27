@@ -631,5 +631,14 @@
         "source" : "https://github.com/Cqoicebordel/Watchfaces/tree/main/QR_Watchface",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "70",
+        "name" : "Orbital",
+        "author" : "Cqoicebordel & Sudrien",
+        "screenshot" : "https://raw.githubusercontent.com/Cqoicebordel/Watchfaces/main/Orbital/anim.gif",
+        "source" : "https://github.com/Cqoicebordel/Watchfaces/tree/main/Orbital",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }  
 ]
