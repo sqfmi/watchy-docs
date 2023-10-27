@@ -606,6 +606,24 @@
         "version" : "1.0.0"
     },
     {
+        "id" : "67",
+        "name" : "Multi_face_Watchy",
+        "author" : "uCBill",
+        "screenshot" : "https://github.com/uCBill/Multi_face_Watchy/blob/main/Multi_face_Watchy.gif?raw=true",
+        "source" : "https://github.com/uCBill/Multi_face_Watchy",
+        "ota_bin" : false,
+        "version" : "1.6.0"
+    },  
+    {
+        "id" : "68",
+        "name" : "Calendar WatchFace",
+        "author" : "uCBill",
+        "screenshot" : "https://github.com/uCBill/Calendar_watchy/blob/main/calendar.gif?raw=true",
+        "source" : "https://github.com/uCBill/Calendar_watchy",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
+    {
         "id" : "69",
         "name" : "QR Watchface",
         "author" : "Cqoicebordel",
@@ -613,5 +631,5 @@
         "source" : "https://github.com/Cqoicebordel/Watchfaces/tree/main/QR_Watchface",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }
+    }  
 ]
