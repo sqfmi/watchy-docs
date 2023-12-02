@@ -640,5 +640,14 @@
         "source" : "https://github.com/Cqoicebordel/Watchfaces/tree/main/Orbital",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }  
+    },
+    {
+        "id" : "71",
+        "name" : "Squaro",
+        "author" : "Cqoicebordel",
+        "screenshot" : "https://raw.githubusercontent.com/Cqoicebordel/Watchfaces/main/Squaro/screenshot.png",
+        "source" : "https://github.com/Cqoicebordel/Watchfaces/tree/main/Squaro",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    } 
 ]
