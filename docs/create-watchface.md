@@ -87,8 +87,9 @@ If you are interested in exploring that approach, check out [WatchySim on GitHub
 
 We'd love to see what you've created! Share your watch face with us and we'll post it on our gallery:
 
-1. Make sure you have a GitHub repo with the source code, and a 200x200 screenshot of the watch face (must be a black and white \*.bmp or \*.gif)
-2. Add your watch face to the bottom of this [`json file`](https://github.com/sqfmi/watchy-docs/blob/main/src/pages/watchfaces/watchfaces.json) like so:
+1. Take a screenshot of your watch face! Follow the instructions [here](https://github.com/sqfmi/Watchy/wiki/Screenshots-of-Watchfaces)
+2. Make sure you have a GitHub repo with the source code, and a 200x200 screenshot of the watch face (must be a black and white \*.bmp or \*.gif)
+3. Add your watch face to the bottom of this [`json file`](https://github.com/sqfmi/watchy-docs/blob/main/src/pages/watchfaces/watchfaces.json) like so:
 ```json
     {
         "id" : "ID_NUMBER",
@@ -100,5 +101,5 @@ We'd love to see what you've created! Share your watch face with us and we'll po
         "version" : "VERSION_NUMBER"
     }  
 ```
-3. You may want to check for other PRs so your ID number is the latest
-4. Submit the PR for review and merge
+4. You may want to check for other PRs so your ID number is the latest
+5. Submit the PR for review and merge
