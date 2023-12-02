@@ -658,5 +658,15 @@
         "source" : "https://github.com/Cqoicebordel/Watchfaces/tree/main/BinaryBlocks",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+
+        "id" : "73",
+        "name" : "Squarbital",
+        "author" : "Cqoicebordel",
+        "screenshot" : "https://raw.githubusercontent.com/Cqoicebordel/Watchfaces/main/Squarbital/screen.gif",
+        "source" : "https://github.com/Cqoicebordel/Watchfaces/tree/main/Squarbital",
+        "ota_bin" : false,
+        "version" : "1.0.0"      
     }
 ]
