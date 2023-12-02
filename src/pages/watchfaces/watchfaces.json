@@ -649,5 +649,14 @@
         "source" : "https://github.com/Cqoicebordel/Watchfaces/tree/main/Squaro",
         "ota_bin" : false,
         "version" : "1.0.0"
-    } 
+    }       
+    },
+        "id" : "72",
+        "name" : "BinaryBlocks",
+        "author" : "Cqoicebordel",
+        "screenshot" : "https://raw.githubusercontent.com/Cqoicebordel/Watchfaces/main/BinaryBlocks/screen.gif",
+        "source" : "https://github.com/Cqoicebordel/Watchfaces/tree/main/BinaryBlocks",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }
 ]
