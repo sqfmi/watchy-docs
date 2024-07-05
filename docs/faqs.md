@@ -90,6 +90,6 @@ You may purchase replacement parts and accessories at https://shop.sqfmi.com
 
 For screens, you may also get them on https://www.aliexpress.com/item/3256803841306234.html
 
-### What version is my Watchy?
+### Which board revision is my Watchy?
 
-- Select **About Watchy** in the menu and see the revision number
+- Select **About Watchy** in the menu to see the revision number

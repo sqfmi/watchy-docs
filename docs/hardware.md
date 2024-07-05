@@ -86,4 +86,18 @@ slug: /hardware
 * Height: 9.5MM
 * Weight: 13g
 
+---
+
+## Revisions
+
+| Revision         | v1.0          | v1.5          | v2.0          | v3.0                |
+|------------------|---------------|---------------|---------------|---------------------|
+| Release Date     | Nov 2019      | Jun 2021      | Dec 2021      | July 2024           |
+| SoC              | ESP32-PICO-D4 | ESP32-PICO-D4 | ESP32-PICO-D4 | ESP32-S3FN8         |
+| RTC              | DS3231        | PCF8536       | PCF8536       | EXT 32KHz Crystal   |
+| USB-Serial       | CP2104        | CP2104        | CP2102        | Built-in CDC/JTAG   |
+| USB Device       | Not Supported | Not Supported | Not Supported | CDC, HID, MIDI, MSC |
+| Charge Indicator | LED           | LED           | LED           | GPIO                |
+| Bootload/Reset   | DTR/RTS       | DTR/RTS       | DTR/RTS       | Buttons             |
+
 
