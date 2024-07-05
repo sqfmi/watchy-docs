@@ -46,7 +46,7 @@ Assembly Video (CNC Aluminum Case): [https://www.youtube.com/watch?v=rbVr9eVb72M
 ![Watchy OG Assembly](../static/img/watchy_assembly_steps.png)
 
 1. Apply tape to the **back** of the E-Paper display and battery. The **front of the display is white** and the **back of the display is metallic/silver**
-2. Pull lightly to unlock the FFC connector, insert the display cable through the strap hole. Make sure the cable is inserted all the way, then push the lock back in to secure the cable. 
+2. Pull lightly to unlock the FFC connector, insert the display cable through the strap hole. Make sure the cable is inserted all the way, then push the lock back in to secure the cable.
 3. Fold back and align the display to the top of the PCB, peel off the tape and firmly secure the display
 4. Insert the battery plug, ensure correct polarity (red is closer to the USB connector)
 5. Peel off the tape and firmly secure the battery to the PCB
@@ -139,7 +139,7 @@ board_build.partitions = min_spiffs.csv
 ```diff
   [env:esp32dev]
 - platform = espressif32
-+ platform = espressif32 @ ~3.5.0
++ platform = espressif32 @ ~6.6.0
 ```
 
 - Run PlatformIO, it will download dependencies such as the Watchy library, but then fail to compile because there aren't any source files in `src/` yet. So when the dependencies are downloaded, copy the `7_SEG` example files to `src/`.
