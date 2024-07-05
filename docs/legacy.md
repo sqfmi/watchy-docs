@@ -139,7 +139,7 @@ board_build.partitions = min_spiffs.csv
 ```diff
   [env:esp32dev]
 - platform = espressif32
-+ platform = espressif32 @ ~3.5.0
++ platform = espressif32 @ ~6.6.0
 ```
 
 - Run PlatformIO, it will download dependencies such as the Watchy library, but then fail to compile because there aren't any source files in `src/` yet. So when the dependencies are downloaded, copy the `7_SEG` example files to `src/`.

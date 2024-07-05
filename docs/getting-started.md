@@ -29,6 +29,10 @@ slug: /getting-started
 
 7. Wait 1 minute to check and see if the clock is updating the time correctly
 
+**Assembly Video:** [https://www.youtube.com/watch?v=ftLTrr_HTpI](https://www.youtube.com/watch?v=ftLTrr_HTpI)
+
+**Assembly Video (CNC Aluminum Case):** [https://www.youtube.com/watch?v=rbVr9eVb72M](https://www.youtube.com/watch?v=rbVr9eVb72M)
+
 **Tips**
 
 - **Make sure the screen is perfectly aligned before taping it down!** It should not extend above or below the strap holes on the PCB.
