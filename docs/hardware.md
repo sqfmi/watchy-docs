@@ -8,56 +8,39 @@ slug: /hardware
 ## Schematic
 
 ![Watchy Schematic](../static/img/watchy_schematic_light.svg)
+[v3.0](https://github.com/sqfmi/watchy-hardware/blob/v3.0/WatchySchematic.pdf)
 [v2.0](https://github.com/sqfmi/watchy-hardware/blob/v2.0/WatchySchematic.pdf)
 [v1.5](https://github.com/sqfmi/watchy-hardware/blob/v1.5/WatchySchematic.pdf)
 [v1.0](https://github.com/sqfmi/watchy-hardware/blob/v1.0/WatchySchematic.pdf)
 
 ---
 
-## Pin Map
+## Revisions
 
-| ESP32-PICO-D4 | DISPLAY |BMA423|DS3231/PCF8563| ADC  |   UART   |  Buttons  |
-| ------------- | :-----: | :--: |:------------:| :---:|   :-:    |    :-:    |    
-| GPIO 1        |         |      |              |      |    TX    |           |
-| GPIO 3        |         |      |              |      |    RX    |           |
-| GPIO 4        |         |      |              |      |          |  BTN 4 |
-| GPIO 5        |   CS    |      |              |      |          |           |
-| GPIO 9        |   RES   |      |              |      |          |           |
-| GPIO 10       |   DC    |      |              |      |          |           |
-| GPIO 12       |         | INT2 |              |      |          |           |
-| GPIO 13       |         |      |              |      |          |           |
-| GPIO 14       |         | INT1 |              |      |          |           |
-| GPIO 18       |  SCLK   |      |              |      |          |           |
-| GPIO 19       |  BUSY   |      |              |      |          |           |
-| GPIO 21       |         | SDA  |    SDA       |      |          |           |
-| GPIO 22       |         | SCL  |    SCL       |      |          |           |
-| GPIO 23       |  MOSI   |      |              |      |          |           |
-| GPIO 25       |         |      |              |      |          |  BTN 2 |
-| GPIO 26       |         |      |              |      |          |  BTN 1 |
-| GPIO 27       |         |      |    INT       |      |          |           |
-| GPIO 32       |         |      |              |      |          |  BTN 3 (v1.0/1.5) |
-| GPIO 33       |         |      |              | v1.0 |          |           |
-| GPIO 34       |         |      |              | v2.0 |          |           |
-| GPIO 35       |         |      |              | v1.5 |          |  BTN 3 (v2.0) |
+| Revision         | 3.0                 | 2.0           | 1.5           | 1.0           |
+|------------------|---------------------|---------------|---------------|---------------|
+| Release Date     | June 2024           | Dec 2021      | Jun 2021      | Nov 2019      |
+| SoC              | ESP32-S3FN8         | ESP32-PICO-D4 | ESP32-PICO-D4 | ESP32-PICO-D4 |
+| RTC              | EXT 32KHz Crystal   | PCF8536       | PCF8536       | DS3231        |
+| USB-Serial       | Built-in CDC/JTAG   | CP2102        | CP2104        | CP2104        |
+| USB Device       | CDC, HID, MIDI, MSC | Not Supported | Not Supported | Not Supported |
+| Charge Indicator | GPIO10              | LED           | LED           | LED           |
+| Bootload/Reset   | Buttons             | DTR/RTS       | DTR/RTS       | DTR/RTS       |
 
 ---
 
-## Bill of Materials
+## Pin Map
 
-<iframe src="/interactive_bom/watchy_interactive_bom.html" width="100%" height="600" title="Watchy Interactive BOM" ></iframe>
-
-
-[Open Interactive BOM in new tab](https://watchy.sqfmi.com/interactive_bom/watchy_interactive_bom.html)
-
-[Download BOM CSV](https://github.com/sqfmi/watchy-hardware/blob/main/WatchyBOM.csv)
-> Created Using **[InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)**
+[Pin Mapping in Watchy Library](https://github.com/sqfmi/Watchy/blob/master/src/config.h)
 
 ---
 
 ## Datasheets
 
+* Microcontroller (v3) [ESP32-S3](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)
 * Microcontroller [ESP32-PICO-D4](https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf)
 * USB-Serial [CP2104](https://www.silabs.com/documents/public/data-sheets/cp2104.pdf)
+* E-Paper Display (v3) [GDEY0154D67](https://www.good-display.com/companyfile/620.html)
 * E-Paper Display [GDEH0154D67](https://www.e-paper-display.com/products_detail/productId=455.html)
 * Display Connector [AFC07-S24ECC-00](https://datasheet.lcsc.com/szlcsc/1811021340_JUSHUO-AFC07-S24ECC-00_C11092.pdf)
 * 3-Axis Accelerometer [BMA423](../static/pdf/BST-BMA423-DS000-1509600.pdf)
@@ -73,6 +56,18 @@ slug: /hardware
 
 ---
 
+## Interactive BOM (v1)
+
+<iframe src="/interactive_bom/watchy_interactive_bom.html" width="100%" height="600" title="Watchy Interactive BOM" ></iframe>
+
+
+[Open Interactive BOM in new tab](https://watchy.sqfmi.com/interactive_bom/watchy_interactive_bom.html)
+
+[Download BOM CSV](https://github.com/sqfmi/watchy-hardware/blob/main/WatchyBOM.csv)
+> Created Using **[InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)**
+
+---
+
 ## KiCAD Design Files & GERBER
 
 * [GitHub](https://github.com/sqfmi/watchy-hardware)
@@ -85,19 +80,4 @@ slug: /hardware
 * Width: 35.5MM
 * Height: 9.5MM
 * Weight: 13g
-
----
-
-## Revisions
-
-| Revision         | v1.0          | v1.5          | v2.0          | v3.0                |
-|------------------|---------------|---------------|---------------|---------------------|
-| Release Date     | Nov 2019      | Jun 2021      | Dec 2021      | July 2024           |
-| SoC              | ESP32-PICO-D4 | ESP32-PICO-D4 | ESP32-PICO-D4 | ESP32-S3FN8         |
-| RTC              | DS3231        | PCF8536       | PCF8536       | EXT 32KHz Crystal   |
-| USB-Serial       | CP2104        | CP2104        | CP2102        | Built-in CDC/JTAG   |
-| USB Device       | Not Supported | Not Supported | Not Supported | CDC, HID, MIDI, MSC |
-| Charge Indicator | LED           | LED           | LED           | GPIO                |
-| Bootload/Reset   | DTR/RTS       | DTR/RTS       | DTR/RTS       | Buttons             |
-
 
