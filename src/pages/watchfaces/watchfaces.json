@@ -660,7 +660,6 @@
         "version" : "1.0.0"
     },
     {
-
         "id" : "73",
         "name" : "Squarbital",
         "author" : "Cqoicebordel",
@@ -668,5 +667,14 @@
         "source" : "https://github.com/Cqoicebordel/Watchfaces/tree/main/Squarbital",
         "ota_bin" : false,
         "version" : "1.0.0"      
-    }
+    },
+    {
+        "id" : "74",
+        "name" : "Marquee",
+        "author" : "SomethingWithComputers (Ron Talman)",
+        "screenshot" : "https://raw.githubusercontent.com/SomethingWithComputers/marquee/main/marquee.gif",
+        "source" : "https://github.com/SomethingWithComputers/marquee",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    },
 ]
