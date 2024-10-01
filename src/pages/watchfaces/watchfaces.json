@@ -674,7 +674,7 @@
         "id" : "74",
         "name" : "WatchySevenSegment",
         "author" : "qcope",
-        "screenshot" : "https://github.com/qcope/WatchySevenSegment/blob/main/watchysevensegment_screen.png",
+        "screenshot" : "https://raw.githubusercontent.com/qcope/WatchySevenSegment/main/watchysevensegment_screen.png",
         "source" : "https://github.com/qcope/WatchySevenSegment/tree/main",
         "ota_bin" : false,
         "version" : "1.0.0"      
