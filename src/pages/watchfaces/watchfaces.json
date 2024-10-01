@@ -660,7 +660,6 @@
         "version" : "1.0.0"
     },
     {
-
         "id" : "73",
         "name" : "Squarbital",
         "author" : "Cqoicebordel",
@@ -670,7 +669,6 @@
         "version" : "1.0.0"      
     },
     {
-
         "id" : "74",
         "name" : "WatchySevenSegment",
         "author" : "qcope",
@@ -678,7 +676,14 @@
         "source" : "https://github.com/qcope/WatchySevenSegment/tree/main",
         "ota_bin" : false,
         "version" : "1.0.0"      
+    },
+    {
+        "id" : "75",
+        "name" : "Marquee",
+        "author" : "SomethingWithComputers (Ron Talman)",
+        "screenshot" : "https://raw.githubusercontent.com/SomethingWithComputers/marquee/main/marquee.gif",
+        "source" : "https://github.com/SomethingWithComputers/marquee",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
-
-    
 ]
