@@ -18,7 +18,7 @@ slug: /getting-started
 
 **Do Not Apply The Included Tape!!** Watchy can be assembled and secured with the included enclosure, without needing any tape. Only apply the tape if you intend to use Watchy without the enclosure, and have triple checked the screen is properly aligned.
 
-1. Connect the screen to the FPC connector, the shiny gold pins on the ribbon cable should be facing up. The ribbon cable goes through the PCB slot like in the image above.
+1. Connect the screen to the FPC connector: the ribbon cable goes through the PCB slot, as in the image above; the shiny gold pins on the ribbon cable must  face up; using tweezers, pull up the black pins before inserting the cable, and press down the pins after inserting the cable.
 2. Connect the battery
 3. Connect the USB to start charging the battery
 4. Press [SW1](/docs/hardware#bill-of-materials) to bring up the **menu**/**confirm**
@@ -55,7 +55,7 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
     ```
     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
     ```
-4. Open Tools > Board > **Boards Manager** and install **v2.0.17** of **esp32** platform. *Note: there are compatibility issues with v3.x.x*
+4. Open Tools > Board > **Boards Manager** and install **v2.0.18** of **esp32** platform. *Note: there are compatibility issues with v3.x.x of esp32. 'Arduino ESP32 Boards' is something different - look for 'esp32'*
 5. Under Sketch > Include Library > Manage Libraries, search for **Watchy** and install the latest version
 6. Make sure all the dependencies are installed i.e. **GxEPD2** , **WiFiManager**, **rtc_pcf8563**,**etc.**
 
@@ -84,15 +84,15 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
 
 1. Click 'Setup Wifi' from main menu on the watch.
 2. Connect to 'Watchy Ap' wifi from another device such as phone or computer / laptop.
-3. Open 192.168.4.1 in the browser. On iphone this page open itself when connecting to wifi.
+3. Open 192.168.4.1 in the browser. (Note: on iphone this page will open automatically.)
 4. Click 'Configure WiFi'
-5. Enter SSID and password. (Note: SSID can be prefilled by listed networks on the top of this screen)
+5. Enter SSID and password. (Note: SSID can be prefilled from the list of networks at the top of this screen)
 6. Hit 'Save' button and wait for Watchy.
-7. If connection failed, the watchy will display 'Setup failed & timed out!', otherwise it will display the local ip address and SSID of the connected network with confirmation.
+7. If connection fails, the watchy will display 'Setup failed & timed out!', otherwise it will display the local ip address and SSID of the connected network with confirmation.
 
 #### Troubleshoot Wifi Setup:
 1. Click 'Info' from 192.168.4.1 page.
 2. Check your router setting to make sure the listed mac address is allowed.
-3. If above didn't fix, then try clicking 'Erase Wifi Config' from 'Info' page and wait for Watchy to restart itself. Once it happen, try the wifi setup again and it should hopefully work.
+3. If there is still a problem, try clicking 'Erase Wifi Config' from the 'Info' page and wait for Watchy to restart itself. Then try the wifi setup again and it should hopefully work.
 
 ---
