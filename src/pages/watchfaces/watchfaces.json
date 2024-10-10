@@ -685,5 +685,14 @@
         "source" : "https://github.com/SomethingWithComputers/marquee",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }
+    },
+    {
+        "id" : "76",
+        "name" : "Digdug Watch",
+        "author" : "gooth9232",
+        "screenshot" : "https://raw.githubusercontent.com/gooth9232/DigdugWatch/master/forPR.gif",
+        "source" : "https://github.com/gooth9232/DigdugWatch/tree/master",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }    
 ]
