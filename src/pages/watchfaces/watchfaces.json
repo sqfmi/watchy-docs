@@ -694,5 +694,14 @@
         "source" : "https://github.com/gooth9232/DigdugWatch/tree/master",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },    
+    {
+        "id" : "77",
+        "name" : "Skykid Watch",
+        "author" : "gooth9232",
+        "screenshot" : "https://github.com/gooth9232/SkykidWatch/blob/master/img/ForPR.gif",
+        "source" : "https://github.com/gooth9232/SkykidWatch",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }    
 ]
