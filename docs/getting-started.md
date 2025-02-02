@@ -18,7 +18,7 @@ slug: /getting-started
 
 **Do Not Apply The Included Tape!!** Watchy can be assembled and secured with the included enclosure, without needing any tape. Only apply the tape if you intend to use Watchy without the enclosure, and have triple checked the screen is properly aligned.
 
-1. Connect the screen to the FPC connector: the ribbon cable goes through the PCB slot, as in the image above; the shiny gold pins on the ribbon cable must  face up; using tweezers, pull up the black pins before inserting the cable, and press down the pins after inserting the cable.
+1. Connect the screen to the FPC connector: the ribbon cable goes through the PCB slot, as in the image above; the shiny gold pins on the ribbon cable must face up; pull the black tabs out slightly before inserting the cable, then push the tabs back in after to secure cable.
 2. Connect the battery
 3. Connect the USB to start charging the battery
 4. Press [SW1](/docs/hardware#bill-of-materials) to bring up the **menu**/**confirm**
