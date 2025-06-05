@@ -703,5 +703,13 @@
         "source" : "https://github.com/gooth9232/SkykidWatch",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+        "id" : "78",
+        "name" : "CityWeather",
+        "author" : "vsdyachkov",
+        "screenshot" : "https://github.com/vsdyachkov/watchy-cityweather/raw/main/screenshot.png",
+        "source" : "https://github.com/vsdyachkov/watchy-cityweather",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }    
 ]
