@@ -55,7 +55,7 @@ Watchy comes pre-loaded with firmware that demonstrates all the basic features. 
     ```
     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
     ```
-4. Open Tools > Board > **Boards Manager** and install **v2.0.18** of **esp32** platform. *Note: there are compatibility issues with v3.x.x of esp32. 'Arduino ESP32 Boards' is something different - look for 'esp32'*
+4. Open Tools > Board > **Boards Manager** and install the latest version of **esp32** by *Espressif Systems*. Check to make sure you did not install **Arduino ESP32 Boards** by mistake.
 5. Under Sketch > Include Library > Manage Libraries, search for **Watchy** and install the latest version
 6. Make sure all the dependencies are installed i.e. **GxEPD2** , **WiFiManager**, **rtc_pcf8563**,**etc.**
 

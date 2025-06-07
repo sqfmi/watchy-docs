@@ -704,6 +704,7 @@
         "ota_bin" : false,
         "version" : "1.0.0"
     },
+    {
         "id" : "78",
         "name" : "CityWeather",
         "author" : "vsdyachkov",
@@ -711,5 +712,5 @@
         "source" : "https://github.com/vsdyachkov/watchy-cityweather",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }    
+    }
 ]
