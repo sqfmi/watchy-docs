@@ -712,5 +712,14 @@
         "source" : "https://github.com/vsdyachkov/watchy-cityweather",
         "ota_bin" : false,
         "version" : "1.0.0"
-    }
+    },
+    {
+        "id" : "79",
+        "name" : "Chaos - Lorenz Attractor",
+        "author" : "Ajey Pai Karkala",
+        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/9_Chaos.bmp",
+        "source" : "https://github.com/AjeyPai/chaos",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    } 
 ]
