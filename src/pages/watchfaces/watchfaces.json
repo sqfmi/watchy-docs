@@ -717,8 +717,8 @@
         "id" : "79",
         "name" : "Chaos - Lorenz Attractor",
         "author" : "Ajey Pai Karkala",
-        "screenshot" : "https://raw.githubusercontent.com/sqfmi/Watchy/master/extras/WatchFaces/9_Chaos.bmp",
-        "source" : "https://github.com/AjeyPai/chaos",
+        "screenshot" : "https://raw.githubusercontent.com/AjeyPaiK/chaos/refs/heads/main/examples/gifs/chaos_watchy_demo.gif",
+        "source" : "https://github.com/AjeyPaiK/chaos",
         "ota_bin" : false,
         "version" : "1.0.0"
     } 
