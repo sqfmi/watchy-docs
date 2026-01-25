@@ -45,6 +45,19 @@ void loop() {
 }
 ```
 
+## Design Tools
+
+While you can code everything by hand, the community has built powerful tools to help you design watchfaces visually.
+
+### Watchy Watchface Designer (Web Tool)
+
+For a modern, drag-and-drop experience, you can use the <ins>[**Watchy Watchface Designer**](https://watchfacedesigner.netlify.app/)</ins>.
+
+1. **Drag & Drop**: Add clocks, weather widgets, battery status, and shapes directly onto a virtual Watchy canvas.
+2. **Live Preview**: See exactly how your watchface will look on the 200x200 E-Ink display in real-time.
+3. **Bitmap Code Preview**: If you have existing C++ bitmap arrays, you can paste them into the **Code Preview** section to see them rendered instantly before adding them to your design.
+4. **Instant Export**: Generate a complete Arduino project (including `.ino`, `.h`, and bitmap files) with one click.
+
 ### Displaying Images/Icons
 
 Since the E-Paper display is black and white only, you will need to convert any images/icons you wish to display into black and white first.
