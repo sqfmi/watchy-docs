@@ -21,7 +21,7 @@ const features = [
     imageUrl: 'img/esp32.jpg',
     description: (
       <>
-        ESP32-PICO-D4 at its core, with built-in WiFi/Bluetooth LE and compatibility with Arduino, MicroPython, and ESP-IDF
+        ESP32-S3 at its core, with built-in WiFi/Bluetooth LE and compatibility with Arduino, MicroPython, and ESP-IDF
       </>
     ),
   },  

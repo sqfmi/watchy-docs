@@ -52,7 +52,7 @@ module.exports = {
         // },                                   
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          to: 'https://mou.sr/3WQWSXT',
+          to: 'https://shop.sqfmi.com/products/watchy-kit',
           label: 'Buy Watchy!',
           position: 'right',
         },
