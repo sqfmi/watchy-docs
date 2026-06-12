@@ -721,5 +721,14 @@
         "source" : "https://github.com/AjeyPaiK/chaos",
         "ota_bin" : false,
         "version" : "1.0.0"
-    } 
+    },
+    {
+        "id" : "80",
+        "name" : "MiteOS",
+        "author" : "Adammantium",
+        "screenshot" : "https://raw.githubusercontent.com/Adammantium/MiteOS/refs/heads/main/img/slideshow.gif",
+        "source" : "https://github.com/Adammantium/MiteOS",
+        "ota_bin" : false,
+        "version" : "1.0.0"
+    }
 ]
