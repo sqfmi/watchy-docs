@@ -730,5 +730,14 @@
         "source" : "https://github.com/Adammantium/MiteOS",
         "ota_bin" : false,
         "version" : "1.0.0"
+    },
+    {
+        "id" : "82",
+        "name" : "Race Track",
+        "author" : "technobot-v1",
+        "screenshot" : "https://raw.githubusercontent.com/technobot-v1/Race_track/refs/heads/main/screenshot.gif",
+        "source" : "https://github.com/technobot-v1/Race_track",
+        "ota_bin" : false,
+        "version" : "1.0.0"
     }
 ]
