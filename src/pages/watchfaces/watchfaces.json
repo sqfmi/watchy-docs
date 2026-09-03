@@ -10,10 +10,11 @@
     },
     {
         "id" : "2",
-        "name" : "7_SEG",
+        "name" : "7SEG",
         "author" : "SQFMI",
         "screenshot" : "/img/watchfaces/2_7_SEG.png",
         "source" : "https://github.com/sqfmi/Watchy/tree/master/examples/WatchFaces/7_SEG",
+        "firmware" : "/firmware/7Seg.bin",
         "ota_bin" : true,
         "version" : "1.0.0"
     },

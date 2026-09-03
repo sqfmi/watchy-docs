@@ -27,3 +27,106 @@
     top:260px;
     width:80%;
 }
+.flashButton{
+    width:80%;
+}
+
+/* Flash modal (rendered in a portal, outside .frame) */
+.overlay{
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:1rem;
+}
+
+.modal{
+    background: var(--ifm-background-surface-color);
+    color: var(--ifm-font-color-base);
+    border-radius: var(--ifm-card-border-radius);
+    box-shadow: var(--ifm-global-shadow-md);
+    max-width: 480px;
+    width:100%;
+    max-height: 90vh;
+    overflow:auto;
+    padding:1.5rem;
+    text-align:left;
+}
+
+.modal h3{
+    margin-top:0;
+}
+
+.actions{
+    display:flex;
+    justify-content:flex-end;
+    gap:0.5rem;
+    margin-top:1rem;
+}
+
+.progress{
+    height:12px;
+    background: var(--ifm-color-emphasis-200);
+    border-radius:6px;
+    overflow:hidden;
+    margin:1rem 0 0.25rem;
+}
+
+.progressBar{
+    height:100%;
+    background: var(--ifm-color-primary);
+    transition: width 0.15s linear;
+}
+
+.progressLabel{
+    text-align:right;
+    font-size:0.85rem;
+    margin-bottom:0.5rem;
+}
+
+.logDetails{
+    margin-top:0.5rem;
+}
+
+.log{
+    max-height:160px;
+    overflow:auto;
+    font-size:0.75rem;
+    white-space:pre-wrap;
+    word-break:break-all;
+    margin:0.5rem 0 0;
+}
+
+/* Shown once the last byte is sent and esptool is still finishing up, so the
+   bar keeps moving instead of sitting at a frozen-looking 100%. */
+.progressBarBusy{
+    height:100%;
+    width:100%;
+    background: repeating-linear-gradient(
+        -45deg,
+        var(--ifm-color-primary),
+        var(--ifm-color-primary) 10px,
+        var(--ifm-color-primary-lighter) 10px,
+        var(--ifm-color-primary-lighter) 20px
+    );
+    background-size: 28.28px 28.28px;
+    animation: progressStripes 0.8s linear infinite;
+}
+
+@keyframes progressStripes{
+    from { background-position: 0 0; }
+    to   { background-position: 28.28px 0; }
+}
+
+@media (prefers-reduced-motion: reduce){
+    .progressBarBusy{
+        animation: none;
+    }
+}
+
+.detected{
+    margin: 0.5rem 0 1rem;
+}

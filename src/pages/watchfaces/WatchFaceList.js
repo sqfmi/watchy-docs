@@ -9,7 +9,7 @@ class WatchFaceList extends Component {
         let rows = [];
         let list = [];
         watchfaces.forEach((watchfaceObj, index) => {
-            rows.push(<WatchFace key={watchfaceObj.id} author={watchfaceObj.author} screenshot={watchfaceObj.screenshot} ota_bin={watchfaceObj.ota_bin} github={watchfaceObj.source} name={watchfaceObj.name} />);
+            rows.push(<WatchFace key={watchfaceObj.id} author={watchfaceObj.author} screenshot={watchfaceObj.screenshot} firmware={watchfaceObj.firmware} github={watchfaceObj.source} name={watchfaceObj.name} />);
             if((index+1) % 3 == 0){
                 list.push(<div key={index} className="row row--no-gutters">{rows}</div>);
                 rows = [];
